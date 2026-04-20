@@ -1,20 +1,40 @@
-# Design Comps — 30th Anniversary Site
-**Prepared by:** US-Creative | **Status:** ⬜ Not Started
+# 05 — Design Comps
+**30th Anniversary Landing Page | US-Creative**
 
-> Final visual design compositions for the landing page. Links to Figma files or exported assets. Based on approved wireframes and style guide.
+> Final visual design compositions for the landing page. Includes Figma links, section-by-section design notes, AI tool usage log, and dev handoff checklist. Based on approved wireframes and style guide.
 
 ---
 
 ## Figma / Asset Links
 
-*(To be completed)*
+*(Link to Figma file, exported assets, or shared drive folder)*
 
 ---
 
 ## Section-by-Section Notes
 
-*(Any design decisions or rationale worth documenting for Dev handoff)*
+*(Design decisions worth documenting — rationale for layout choices, component variations, anything Dev needs to know to build it correctly)*
 
 ---
 
-**→ [Back to Index](./00-INDEX.md) · [Back to Project Hub](../README.md)**
+## AI Tools Used
+
+*(Log of AI-assisted outputs on this project — tool, what it generated, how it was used or modified. Keeps the process transparent and repeatable.)*
+
+| Tool | Used For | Output | Approved By |
+|---|---|---|---|
+| — | — | — | — |
+
+---
+
+## Dev Handoff Checklist
+
+- [ ] Figma file shared with Dev
+- [ ] All assets exported at correct resolutions
+- [ ] Interaction notes documented in 03-WIREFRAMES.md
+- [ ] Style guide finalized in 04-STYLE-GUIDE.md
+- [ ] Open questions flagged for Dev
+
+---
+
+**→ [Back to Index](./00-INDEX.md) · [Project Hub](../README.md)**
