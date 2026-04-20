@@ -1,13 +1,24 @@
 # 30th Anniversary Landing Page — Project Hub
-**Project:** Uncommon Schools 30th Anniversary Site | **Status:** Conception | **Owner:** Coordinator
+**Project:** Uncommon Schools 30th Anniversary Site | **Status:** Active — Conception Phase | **Owner:** Anthony Emezu
 
-> This is the command center for the 30th anniversary landing page project. Start here. Navigate to each team's folder for their work, or use the links below to jump directly to key docs.
+> This is the command center for the 30th anniversary landing page. Project management files live here. Team work lives in the team folders below.
 
 ---
 
 ## Project Overview
 
-A single-page landing page celebrating 30 years of excellence at Uncommon Schools. The page takes the user on a journey — informational, modern, media-rich, carefully curated. Connects all pieces of the anniversary initiative.
+A single-page landing page celebrating 30 years of excellence at Uncommon Schools. Takes the user on a curated journey — informational, modern, media-rich. Connects all pieces of the anniversary initiative in one place.
+
+---
+
+## Project Files
+
+| File | What It Covers |
+|---|---|
+| [01-PROJECT-BRIEF.md](./01-PROJECT-BRIEF.md) | Goals, audience, scope, constraints, success criteria |
+| [02-TASK-TRACKER.md](./02-TASK-TRACKER.md) | Live task list across all teams — owners, due dates, status |
+| [03-DECISION-LOG.md](./03-DECISION-LOG.md) | Key decisions, who made them, rationale |
+| [04-TEAM-BRIEFS.md](./04-TEAM-BRIEFS.md) | Phase briefs issued to Creative, Writer, Dev |
 
 ---
 
@@ -15,30 +26,22 @@ A single-page landing page celebrating 30 years of excellence at Uncommon School
 
 | Folder | Team | What They Own |
 |---|---|---|
-| [coordinator/](./coordinator/) | Coordinator | Project tracking, briefs, decision log, task assignments |
-| [creative/](./creative/) | Creative | Visual research, wireframes, style guide, UI/UX, AI design workflow |
-| [writer/](./writer/) | Writer | Content strategy, copy, narrative arc, SEO |
-| [dev/](./dev/) | Dev | Technical spec, platform recommendation, build, testing, launch |
+| [creative/](./creative/) | Creative | Visual direction, content map, wireframes, style guide, design comps |
+| [writer/](./writer/) | Writer | Research, content strategy, copy, SEO |
+| [dev/](./dev/) | Dev | Platform recommendation, technical spec, build, testing, launch |
 
 ---
 
-## Project Phases
+## Phase Status
 
-| Phase | Description | Status |
-|---|---|---|
-| Conception | Creative research, content strategy, wireframes, style guide, site architecture | ⬜ Not Started |
-| Pre-Production | Final wireframes, copy, AI design workflow, dev spec | ⬜ Not Started |
-| Production | Design, development | ⬜ Not Started |
-| Launch Prep | Pre-launch testing, analytics setup, QA | ⬜ Not Started |
-| Launch | Go live, monitoring | ⬜ Not Started |
-
----
-
-## Quick Links
-- [Project Brief → coordinator/01-PROJECT-BRIEF.md](./coordinator/01-PROJECT-BRIEF.md)
-- [Task Tracker → coordinator/02-TASK-TRACKER.md](./coordinator/02-TASK-TRACKER.md)
-- [Decision Log → coordinator/03-DECISION-LOG.md](./coordinator/03-DECISION-LOG.md)
+| Phase | Status |
+|---|---|
+| Conception — research, direction, content map, platform rec | 🟡 Active |
+| Pre-Production — wireframes, style guide, copy, tech spec | ⬜ Not Started |
+| Production — design comps, build | ⬜ Not Started |
+| Launch Prep — QA, analytics, sign-off | ⬜ Not Started |
+| Launch | ⬜ Not Started |
 
 ---
 
-**→ Start with the brief: [coordinator/01-PROJECT-BRIEF.md](./coordinator/01-PROJECT-BRIEF.md)**
+**→ Start with the brief: [01-PROJECT-BRIEF.md](./01-PROJECT-BRIEF.md)**

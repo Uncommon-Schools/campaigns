@@ -13,7 +13,7 @@
 **Status:** ⬜ Not yet issued
 
 **What we need from you:**
-1. Visual research — 5–10 reference sites/campaigns that match the tone we're going for. Document in [creative/01-RESEARCH.md](../creative/01-RESEARCH.md)
+1. Visual research — 5–10 reference sites/campaigns that match the tone we're going for. Document in [creative/01-RESEARCH.md](./creative/01-RESEARCH.md)
 2. Mood board — visual direction (typography, color palette range, imagery style, motion/animation intent)
 3. Low-fidelity wireframes — page structure, section sequence, scroll experience
 4. Style guide — typography, color system, spacing, component inventory
@@ -31,7 +31,7 @@
 4. SEO strategy — how does this page rank for relevant searches? What are the target terms?
 5. First draft copy — section by section, once wireframes are approved
 
-Document in [writer/](../writer/)
+Document in [writer/](./writer/)
 
 ---
 
@@ -44,7 +44,7 @@ Document in [writer/](../writer/)
 3. Media integration plan — video, photography, any animation or interactive elements
 4. Accessibility and performance requirements
 
-Document in [dev/](../dev/)
+Document in [dev/](./dev/)
 
 ---
 
