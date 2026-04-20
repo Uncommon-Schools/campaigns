@@ -12,6 +12,7 @@
 | D-01 | 2026-04-20 | Project scope: single-page landing page | Anthony | Focused, fast-to-build, all anniversary content in one place |
 | D-02 | 2026-04-20 | Work split by specialty (Creative / Writer / Dev) with Coordinator as command center | Anthony | Mirrors existing agent team structure |
 | D-03 | 2026-04-20 | Use campaigns repo (`Uncommon-Schools/campaigns`) as the GitHub home for this project | Anthony | Consistent with new campaign cataloging structure |
+| D-04 | 2026-04-20 | **OPEN: Knockout font web license** | Anthony (pending) | Dev flagged: Hoefler & Co. web license ~$99–200. Options: license it or use a fallback. Recommendation: license it. Blocks style guide. |
 
 ---
 

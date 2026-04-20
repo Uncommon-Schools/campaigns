@@ -1,5 +1,5 @@
 # Task Tracker — 30th Anniversary Site
-**Last updated:** April 20, 2026 | **Updated by:** Coordinator
+**Last updated:** April 20, 2026 (2:41pm) | **Updated by:** Coordinator
 
 > Live task list for all teams. Updated by Coordinator as work progresses. Owners update status by dropping notes in their team folder or messaging the Coordinator directly.
 
@@ -15,13 +15,23 @@
 |---|---|---|---|---|---|---|
 | C-01 | Confirm launch date and key milestone dates | Coordinator | Anthony | ASAP | ⬜ | Needed before all other scheduling |
 | C-02 | Confirm primary audiences and page goals | Coordinator | Anthony | ASAP | ⬜ | Feeds creative and writer briefs |
-| C-03 | Creative research — visual references, mood board | Creative | — | ❓ | ⬜ | See [creative/01-RESEARCH.md](../creative/01-RESEARCH.md) |
-| C-04 | Content strategy — narrative arc, section structure | Writer | — | ❓ | ⬜ | See [writer/01-CONTENT-STRATEGY.md](../writer/01-CONTENT-STRATEGY.md) |
-| C-05 | Platform recommendation | Dev | — | ❓ | ⬜ | See [dev/01-PLATFORM-RECOMMENDATION.md](../dev/01-PLATFORM-RECOMMENDATION.md) |
+| C-03 | Creative direction — tone, visual references, mood board | Creative | — | ❓ | 🟡 In Progress | |
+| C-04 | Content strategy — narrative arc, section structure | Writer | — | ❓ | 🟡 In Progress | |
+| C-05 | Platform recommendation | Dev | — | ❓ | 🟡 In Progress | |
 | C-06 | Wireframes (low-fidelity) | Creative | — | ❓ | ⬜ | Follows C-03 and C-04 |
-| C-07 | Style guide — typography, color, spacing, components | Creative | — | ❓ | ⬜ | Follows C-06 |
+| C-07 | Style guide — typography, color, spacing, components | Creative | — | ❓ | ⬜ | Follows C-06. Knockout font license decision needed first — see D-01 in decision log |
 | C-08 | AI design workflow definition | Creative | — | ❓ | ⬜ | Document tool stack + process |
 | C-09 | Site architecture + section map | Writer + Dev | — | ❓ | ⬜ | Content structure meets technical structure |
+
+## Blocked / Needs Input
+
+| # | Task | Team | Owner | Due | Status | Notes |
+|---|---|---|---|---|---|---|
+| B-01 | **Knockout font web license decision** | — | Anthony | ASAP | 🟠 Blocked | Dev flagged: Knockout (Hoefler & Co.) requires a web license (~$99–200). Decision needed: license it or use a fallback. Dev recommends licensing — brand fidelity matters on a 30th anniversary page. Blocks style guide. |
+| B-02 | **Provide: Founding story + 30-year milestone timeline** | — | Anthony | ASAP | 🟠 Blocked | Writer needs to complete research file. |
+| B-03 | **Provide: Cumulative impact numbers** (total students served over 30 years, etc.) | — | Anthony | ASAP | 🟠 Blocked | Writer needs to complete research file. |
+| B-04 | **Provide: Specific alumni stories** | — | Anthony | ASAP | 🟠 Blocked | Writer needs to complete research file. |
+| B-05 | **Share: Maria's newsletter audit + existing anniversary campaign materials** | — | Anthony | ASAP | 🟠 Blocked | Writer needs to complete research file. |
 
 ## Pre-Production Phase
 
