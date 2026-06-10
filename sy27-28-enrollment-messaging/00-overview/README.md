@@ -5,6 +5,15 @@ Phase 02. Time-sensitive. Working off the marketing team's SY27/28 Enrollment Ca
 ## Source documents
 - `source-docs/SY27-28-Enrollment-Campaign-Messaging.pdf` — primary framework deck from marketing team
 - Live Google Slides: https://docs.google.com/presentation/d/1y9zPkiGnuaGi8jrAVUk2aNbvjNcGepoOVbKyFcwGPhs/edit
+- `meetings/2026-06-08-messaging-review.md` — messaging review meeting synthesis
+
+## Working approach (decided 2026-06-08)
+- **80/20:** 80% consistent national framework, 20% regional adjustment
+- **Headlines:** universal, work across all regions
+- **Supporting copy / RTBs:** localized using slide 5 of the deck as the proof bank
+- **Data points** (acceptance %, scholarship $, years of impact): support and explain the chosen language; they are RTB material, not headline copy
+- **Audience lens priority:** parents lead, headlines must not alienate teachers, donors, or board
+- **Sequence:** headlines first, then regional RTBs and copy variations
 
 ## Core brand message
 > **Greatness is already in them. We provide the runway.**

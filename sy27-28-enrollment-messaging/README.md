@@ -2,7 +2,7 @@
 
 Top-level campaign project. Source-of-truth messaging framework for SY27/28 enrollment marketing.
 
-See `00-overview.md` for the full framework summary and `source-docs/` for the original deck.
+See `00-overview/` for the full framework summary and `source-docs/` for the original deck.
 
 ## Related projects
 - **Website Redesign 2026** (`campaigns/website-redesign-2026/`) — site content and regional pages must reflect this framework
