@@ -10,9 +10,10 @@ Replace the current uncommonschools.org with a modern, fast, accessible site tha
 | # | Folder | Status | Owner | Notes |
 |---|---|---|---|---|
 | 01 | `01-audit/` | Complete (May 28) | Dev, Writer, Creative | ET phase delivered. Source of truth for findings. |
-| 02 | `02-enrollment-messaging/` | Active | Coordinator + Writer | Time-sensitive. New team messaging strategy from recent meeting notes. |
-| 03 | `03-current-site-fixes/` | Planning | Dev + Creative | Parallel track. Fix major issues, bottlenecks, and pain points on the live site. Replaces the cancelled microsite plan. |
-| 04 | `04-full-redesign/` | Planning | All agents | Soft launch Jan 2027. Full launch Spring 2027. |
+| 02 | `02-current-site-fixes/` | Planning | Dev + Creative | Parallel track. Fix major issues, bottlenecks, and pain points on the live site. Replaces the cancelled microsite plan. |
+| 03 | `03-full-redesign/` | Planning | All agents | Soft launch Jan 2027. Full launch Spring 2027. |
+
+**Related project:** SY27/28 Enrollment Messaging lives at `campaigns/sy27-28-enrollment-messaging/`. It is its own project but informs site content, regional pages, and homepage hero. We will mirror its brand framework here, not duplicate the source.
 
 ## Key decisions
 - **Microsite cancelled.** Would tip competitors. Replaced with current-site fixes track (03).
