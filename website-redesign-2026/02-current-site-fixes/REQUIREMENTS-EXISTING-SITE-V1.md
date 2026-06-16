@@ -159,10 +159,7 @@ All findings below come from the Phase 01 technical audit (`01-audit/dev/`) and 
 
 ## Open Items (Need Anthony Input Before Sitecare Scopes)
 
-1. Boston regional site URL — not found in audit. Likely a domain like `boston.uncommonschools.org` or similar. Needed for completeness.
-2. Domains 7 through 9 — original brief referenced 9 domains, 5 confirmed. Inventory needs closure.
-3. Second GA4 property `G-X5WHC48ND7` — who set it up, what it tracks. Needed before MonsterInsights removal and analytics rationalization.
-4. Avela and SchoolMint enrollment integration locations — which regional pages route to which platform.
+1. Boston regional site URL — not found in audit. Without it, Sitecare cannot include Boston in the stabilization work.
 
 ---
 
