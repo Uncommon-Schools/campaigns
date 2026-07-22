@@ -32,7 +32,8 @@
 | B-03 | ~~Provide: Cumulative impact numbers~~ | — | — | — | 🟢 Resolved | Canonical stat set from Development's approved webpage copy → writer/01-RESEARCH.md |
 | B-04 | ~~Provide: Specific alumni stories~~ | — | — | — | 🟢 Resolved | "30 for 30" video stories (David Deatherage, rolling 2/month) + 162 alumni-on-staff angle. Embed, don't re-create |
 | B-05 | ~~Share: Maria's newsletter audit + existing anniversary campaign materials~~ | — | — | — | 🟢 Resolved | Found: "30TH ANNIVERSARY MEDIA ASSETS AND ROLES" sheet (audit tab) + full campaign asset library → writer/01-RESEARCH.md |
-| B-06 | **Confirm relationship to Marketing's July 1 anniversary page** | — | Anthony | ASAP | 🟠 Blocked | Campaign plan had Marketing/Maria shipping an anniversary page July 1 with brand story + video. Is this project the upgrade/replacement, or a companion experience? Affects URL, scope, launch date — see D-07 |
+| B-06 | **Confirm relationship to Marketing's July 1 anniversary page** | — | Anthony | ASAP | 🟠 Blocked | Campaign plan had Marketing/Maria shipping an anniversary page July 1. **Web sweep July 22 found no anniversary page live on uncommonschools.org** — it may not have shipped. Opportunity: this project becomes the canonical page. See D-07 |
+| B-08 | Verify first-graduating-class year (2004 vs 2005) with Development | Writer | Anthony → Adna | before copy freeze | ⬜ | Public record + internal key-dates table say June 2004 (19 students, 100% acceptance); approved copy narrative says 2005. See research discrepancy table |
 | B-07 | Archival photography for timeline (1997 North Star, 2005 first class) | Creative | Anthony → Maria/Dev't | ❓ | ⬜ | Longest-lead sourcing item — start early |
 
 ## Pre-Production Phase

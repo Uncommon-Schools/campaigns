@@ -227,4 +227,49 @@ Inventory of ~18 newsletters/emails across the org, with owners and audiences. H
 
 ---
 
+## Public Record Supplement (researched July 22, 2026)
+
+*A web-research sweep verified the internal narrative against the public record and added citable material. Full details below; sources are linked inline.*
+
+### Founding year — independently confirmed
+The public record is unanimous: charter approved **January 1997** (one of NJ's initial 17), doors opened **September 1997** in a former bank building in downtown Newark, 72 students in grades 5–6. No credible source claims 1995. Consistency checks: North Star's [20th anniversary was celebrated in 2017](https://www.facebook.com/uncommonschools/videos/north-star-academy-20th-anniversary-celebration/10155387100955918/) at the Prudential Center, and 2022 coverage referenced the network's "25-year history." 2026–27 is the 30th school year of operation (1997–98 = year one).
+
+### Additional citable milestones (public record — candidates for the timeline)
+| Year | Moment | Source |
+|---|---|---|
+| 2013 | **Uncommon wins the Broad Prize for Public Charter Schools** ($250K) — closed 56% of the low-income achievement gap vs. 13% average among eligible charters | [Broad Foundation](https://broadfoundation.org/uncommon-schools-wins-2013-broad-prize-public-charter-schools/) |
+| 2014 | Rochester Prep HS founding class (partnership with RIT) | [RIT](https://www.rit.edu/news/uncommon-partnership-frequently-asked-questions) |
+| 2016 | Richard Whitmire's *The Founders* chronicles Uncommon's origin story | [The 74 series](https://www.the74million.org/series/the-founders-by-richard-whitmire/) |
+| 2018 | Rochester Prep HS first graduating class: all 25 seniors college-bound, 96 acceptances across 74 colleges; Broad Prize finalist again | [RIT news](https://www.rit.edu/news/first-graduating-class-rochester-prep-includes-three-heading-rit) |
+| 2019 | Julie Jackson named President of Uncommon Schools | [Uncommon news](https://uncommonschools.org/news/julie-jackson-named-uncommon-schools-president/) |
+| 2022 | Julie Jackson becomes the network's **first Black Co-CEO** | [Uncommon news](https://uncommonschools.org/news/julie-jackson-the-black-wall-street-times/) |
+| 2023 | Stanford CREDO NCSS III: Uncommon among top "gap-busting" networks — **+155 days of learning in math** | [CREDO](https://ncss3.stanford.edu/wp-content/uploads/2023/06/DECK_CREDO-Report-10-31-23.pdf) |
+| 2024 | New six-story, 162,500 sq ft K-12 North Star building at 377 Washington St., Newark; 90% of NSA 2024 grads enrolled in college with $5M+ in scholarships | [Hunter Roberts](https://www.hrcg.com/projects/uncommon-schools-north-star-academy/); [northstar.uncommonschools.org](https://northstar.uncommonschools.org/) |
+
+### Named alumni stories (already publicly featured — safe to use)
+From [uncommonschools.org/alumni-spotlights](https://uncommonschools.org/alumni-spotlights/) and press:
+- **Emmett Jones** (North Star Washington Park HS '12) — founded his own media agency
+- **Chantaya King** (North Star '06) — teen mental-health advocate
+- **Julissa Coplin** (North Star '19, Vassar), **Jessica Rosado** (North Star '22, Oberlin), **Adiatu Jalloh** (North Star '20, Montclair State)
+- **Taijuan Ferrell** (Rochester Prep HS '18, first graduating class, Niagara University)
+- **Shavon Mathus** — recruited back through the alumni pipeline, became a 2nd-grade teacher at Excellence Girls ([The 74](https://www.the74million.org/article/uncommon-schools-recruiting-back-its-own-graduates-to-diversify-its-teaching-network/))
+- Founder arcs with national resonance: **John B. King Jr.** (Roxbury Prep co-founder → U.S. Secretary of Education), **Julie Jackson** (early North Star educator → first Black Co-CEO), **Doug Lemov** (TLAC reaching ~a quarter of U.S. teachers — [Washington Post](https://www.washingtonpost.com/local/education/lemov-charter-school-uncommon/2021/09/26/a93a5dc6-1c02-11ec-bcb8-0cb135811007_story.html))
+- Roxbury Prep origin lore: a four-hour Somerville dinner the night before the charter deadline; Rudall pulled an all-nighter on the application ([Roxbury Prep Legacy](https://roxburyprep.uncommonschools.org/roxbury-prep-legacy/))
+
+### Discrepancies to reconcile before publish (internal vs. public record)
+| Item | Internal (approved copy) | Public record | Action |
+|---|---|---|---|
+| First graduating class year | Narrative says 2005; key-dates table says 2004 | **June 2004**, 19 students, 100% acceptance ([Wikipedia](https://en.wikipedia.org/wiki/North_Star_Academy_Charter_School)) | Verify with Development; public record + internal key-dates table agree on 2004 |
+| Schools count | 53 | Public site says 52 | Use 53 (approved copy is newer) but confirm before publish |
+| Books sold | 2.6M since 2010 (all titles) | TLAC series alone: 1.3M copies as of 2021 | Consistent if 2.6M covers all titles/years — keep internal figure |
+| Staff diversity | 72% of staff identify as people of color | ~34% of *teachers* Black or Latino | Different metrics — don't mix in one section |
+| Slogan in public use | "30 Years of Impact" (logo/campaign) | Public posts so far say "30th Anniversary" + "30 Stories of Impact" | Fine — page will lead public usage of the logo phrase |
+| Boston region join date | Roxbury Prep founded 1999 | Formally joined Uncommon network in **2011** | Timeline should say "founded 1999, joined network 2011" |
+| Troy | In 2006–2016 expansion narrative | Handed to KIPP July 2022 | Say "five cities" for the present; Troy appears only in the historical timeline |
+
+### Live-site status (as of July 22, 2026)
+**No dedicated anniversary landing page was found on uncommonschools.org** — anniversary messaging so far lives on social channels ("30 Stories of Impact" launched with Jamey Verrilli's story; July LDR kickoff had 30 speakers). This sharpens open question D-07: the July 1 page from the campaign plan either shipped without being indexed/discoverable or hasn't shipped — either way, this project has the opportunity to be **the** canonical anniversary destination.
+
+---
+
 **→ [Content Strategy](./02-CONTENT-STRATEGY.md) · [Back to Index](./00-INDEX.md)**
