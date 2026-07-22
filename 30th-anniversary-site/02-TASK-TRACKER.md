@@ -13,7 +13,7 @@
 
 | # | Task | Team | Owner | Due | Status | Notes |
 |---|---|---|---|---|---|---|
-| C-01 | Confirm launch date and key milestone dates | Coordinator | Anthony | ASAP | 🟡 | Campaign calendar found: external 30th launch was July 1, 2026; regional kickoffs Aug 10–14; SY27-28 enrollment materials Sept. **Anthony to confirm this page's target date** — see D-07 |
+| C-01 | Confirm launch date and key milestone dates | Coordinator | Anthony | ASAP | 🟡 | Campaign calendar for context: regional kickoffs Aug 10–14, SY27-28 enrollment materials Sept, morning circles Oct. **Anthony to set this site's target launch date** |
 | C-02 | Confirm primary audiences and page goals | Coordinator | Anthony | — | 🟢 | Answered by campaign overview: General Public/Education Professionals + Donors primary; families, staff/alumni, boards secondary. Anthony leads "Uncommon Website" workstream |
 | C-03 | Creative direction — tone, visual references, mood board | Creative | — | ❓ | 🟡 In Progress | |
 | C-04 | Content strategy — narrative arc, section structure | Writer | — | — | 🟢 | Draft v1 complete July 22 — pending Anthony sign-off |
@@ -32,7 +32,7 @@
 | B-03 | ~~Provide: Cumulative impact numbers~~ | — | — | — | 🟢 Resolved | Canonical stat set from Development's approved webpage copy → writer/01-RESEARCH.md |
 | B-04 | ~~Provide: Specific alumni stories~~ | — | — | — | 🟢 Resolved | "30 for 30" video stories (David Deatherage, rolling 2/month) + 162 alumni-on-staff angle. Embed, don't re-create |
 | B-05 | ~~Share: Maria's newsletter audit + existing anniversary campaign materials~~ | — | — | — | 🟢 Resolved | Found: "30TH ANNIVERSARY MEDIA ASSETS AND ROLES" sheet (audit tab) + full campaign asset library → writer/01-RESEARCH.md |
-| B-06 | **Confirm relationship to Marketing's July 1 anniversary page** | — | Anthony | ASAP | 🟠 Blocked | Campaign plan had Marketing/Maria shipping an anniversary page July 1. **Web sweep July 22 found no anniversary page live on uncommonschools.org** — it may not have shipped. Opportunity: this project becomes the canonical page. See D-07 |
+| B-06 | ~~Confirm relationship to Marketing's July 1 anniversary page~~ | — | — | — | 🟢 Resolved | Scope clarified (D-07): this is a standalone site; uncommonschools.org is never edited by this project. Marketing's main-site content is their workstream |
 | B-08 | Verify first-graduating-class year (2004 vs 2005) with Development | Writer | Anthony → Adna | before copy freeze | ⬜ | Public record + internal key-dates table say June 2004 (19 students, 100% acceptance); approved copy narrative says 2005. See research discrepancy table |
 | B-07 | Archival photography for timeline (1997 North Star, 2005 first class) | Creative | Anthony → Maria/Dev't | ❓ | ⬜ | Longest-lead sourcing item — start early |
 

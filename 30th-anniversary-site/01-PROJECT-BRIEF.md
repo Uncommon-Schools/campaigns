@@ -48,7 +48,8 @@ A single-page landing page celebrating 30 years of excellence at Uncommon School
 
 - Must align with Uncommon brand standards
 - Must be WCAG 2.2 AA accessible
-- Launch date: TBD — campaign externally launched July 1, 2026; this page's date depends on D-07 (relationship to Marketing's July 1 page) *(Anthony to confirm)*
+- Launch date: TBD *(Anthony to confirm — campaign is live, so sooner is better; Aug regional kickoffs and Sept enrollment materials are natural link-to moments)*
+- **Standalone site** — hosted independently; this project never edits uncommonschools.org (see D-07)
 - Platform/hosting: Static HTML + GSAP on Cloudflare Pages *(Dev recommendation, see dev/01)*
 - Body copy is locked to Development's approved "30 Years of Impact" copy (see decision D-06)
 
