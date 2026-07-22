@@ -22,12 +22,10 @@ A single-page landing page celebrating 30 years of excellence at Uncommon School
 
 ## Audience
 
-*(To be confirmed — add primary and secondary audiences)*
+*Confirmed July 22, 2026 from the campaign's "30 Years of Impact overview" (activities-by-audience plan):*
 
-- Families and students (current and prospective)
-- Donors and supporters
-- Staff and alumni
-- Press and external partners
+- **Primary:** General public / education professionals (brand awareness) and donors ("Support the Next 30 Years" — feeds the salon series and "The Next 30" campaign)
+- **Secondary:** Families and students (30-years-of-proof supports SY27-28 enrollment), staff and alumni ("We Are Uncommon"), boards, elected officials, and press
 
 ---
 
@@ -50,8 +48,9 @@ A single-page landing page celebrating 30 years of excellence at Uncommon School
 
 - Must align with Uncommon brand standards
 - Must be WCAG 2.2 AA accessible
-- Launch date: TBD *(Anthony to confirm)*
-- Platform/hosting: TBD *(Dev to recommend)*
+- Launch date: TBD — campaign externally launched July 1, 2026; this page's date depends on D-07 (relationship to Marketing's July 1 page) *(Anthony to confirm)*
+- Platform/hosting: Static HTML + GSAP on Cloudflare Pages *(Dev recommendation, see dev/01)*
+- Body copy is locked to Development's approved "30 Years of Impact" copy (see decision D-06)
 
 ---
 

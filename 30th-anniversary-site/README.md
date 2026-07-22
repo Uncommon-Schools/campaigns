@@ -1,5 +1,5 @@
 # 30th Anniversary Landing Page — Project Hub
-**Project:** Uncommon Schools 30th Anniversary Site | **Status:** Active — Conception Phase | **Owner:** Anthony Emezu
+**Project:** Uncommon Schools 30th Anniversary Site | **Status:** Active — Conception → Pre-Production | **Owner:** Anthony Emezu
 
 > This is the command center for the 30th anniversary landing page. Project management files live here. Team work lives in the team folders below.
 
@@ -36,8 +36,8 @@ A single-page landing page celebrating 30 years of excellence at Uncommon School
 
 | Phase | Status |
 |---|---|
-| Conception — research, direction, content map, platform rec | 🟡 Active |
-| Pre-Production — wireframes, style guide, copy, tech spec | ⬜ Not Started |
+| Conception — research, direction, content map, platform rec | 🟢 Mostly complete (July 22) — creative direction + wireframes remain |
+| Pre-Production — wireframes, style guide, copy, tech spec | 🟡 Starting — approved body copy captured; style guide blocked on font decision (D-04) |
 | Production — design comps, build | ⬜ Not Started |
 | Launch Prep — QA, analytics, sign-off | ⬜ Not Started |
 | Launch | ⬜ Not Started |
