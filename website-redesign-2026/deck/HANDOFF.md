@@ -56,6 +56,7 @@ These are hard rules learned in this project. Violating them costs trust immedia
 8. When he asks for a proposal, give one recommendation with reasoning, not options.
 9. Build decks inside the real brand template, never a recreation.
 10. He spins up code agents on request when browser/repo work is needed; write the agent a self-contained brief and have it write results into this repo.
+11. PLAIN LANGUAGE. No jargon. Anthony is a creative director, not a developer. Say what you will do in everyday words ("I'll change only the words you flag on that slide, nothing else"), never in technical terms ("surgical run-level edits"). Every new agent must read this before its first message.
 
 ## Immediate next steps (in order)
 
