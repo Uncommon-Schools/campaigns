@@ -59,7 +59,7 @@ The last agent's version was rejected. Do not look for it; build your own.
 
 **Anthony's requirements:** a professional deliverable that could go to stakeholders. Readable type (11pt or larger). Plain-language column names and a plain-language instructions tab. Only add a column if he asked for it or you have confirmed it with him first; he rejected "Owner" and "Consolidate into" because their purpose was not clear. Render the file and look at it as a document before sending. Deliver as .xlsx.
 
-### Task 3: Fix audit deck v1 (NOT STARTED; needs two file uploads from Anthony)
+### Task 3: Fix audit deck v1 (DONE — audit deck v3 delivered August 31, 2026; see Deliverable status row 2)
 
 Anthony reviewed v1 (63 slides) and found:
 - It did not follow the provided template. The cover slide format is wrong (compare the SY26-27 Design Guidelines deck cover, which is correct: white logo top left, yellow rule, title lower left, 30 Years badge bottom right, copyright centered at bottom).
@@ -82,7 +82,7 @@ Anthony reviewed v1 (63 slides) and found:
 | # | Deliverable | Status |
 |---|---|---|
 | 1 | Aspirational site examples | NOT STARTED |
-| 2 | Content + technical audit | Deck v1 built Aug 27; REJECTED on format Aug 28; fix pending (Task 3) |
+| 2 | Content + technical audit | Audit deck v3 delivered August 31, 2026. 58 pages, sections 0–12 only (13–17 cut). All March/comparison references removed from the source. Section covers rebuilt from slideLayout8 plus the cover lockup; body text 13pt. deck_source.md and build_deck.py in this folder are the v3 versions and match the delivered deck. |
 | 3 | CMS workflow documentation / screen recording | Anthony + Courtney; not ours |
 | 4 | Cookie banner answer | ANSWERED: no banner on any of 7 domains |
 | 5 | Visual direction / mood board | Anthony's own work; not ours |

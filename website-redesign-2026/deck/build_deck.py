@@ -15,8 +15,8 @@ BLACK = RGBColor(0, 0, 0); GRAY = RGBColor(0x77, 0x7C, 0x86); PANEL = RGBColor(0
 WHITE = RGBColor(0xFF, 0xFF, 0xFF)
 
 LEFT = Inches(0.38); WIDTH = Inches(12.56); TOP = Inches(1.12); BOTTOM = Inches(6.38)
-AVAIL = (BOTTOM - TOP) / 12700  # pt
-BODY_PT = 11; TBL_PT = 9; BUL_PT = 10.5; SUB_PT = 14
+AVAIL = (BOTTOM - TOP) / 12700 - 8  # pt, with a small safety margin above the footer
+BODY_PT = 13; TBL_PT = 11; BUL_PT = 13; SUB_PT = 14
 
 # ---------- parse ----------
 def parse(md):
@@ -62,18 +62,23 @@ def parse(md):
 # ---------- measurement ----------
 def plain(s): return re.sub(r'\*\*|`', '', s)
 def lines_for(text, width_in, pt):
-    cpl = max(10, int(width_in * 72 / (pt * 0.50)))
+    cpl = max(10, int(width_in * 72 / (pt * 0.54)))
     return max(1, math.ceil(len(plain(text)) / cpl))
-def para_h(text, pt=BODY_PT, width_in=12.56): return lines_for(text, width_in, pt) * pt * 1.22 + 7
-def bullets_h(items, pt=BUL_PT): return sum(lines_for(t, 12.2, pt) * pt * 1.22 + 4 for t in items) + 6
+def para_h(text, pt=BODY_PT, width_in=12.56): return lines_for(text, width_in, pt) * pt * 1.22 + 5
+def bullets_h(items, pt=BUL_PT): return sum(lines_for(t, 12.2, pt) * pt * 1.22 + 3 for t in items) + 6
 def col_widths(rows):
     n = max(len(r) for r in rows)
     mx = [max(len(plain(r[c])) if c < len(r) else 0 for r in rows) for c in range(n)]
     w = [min(max(m, 6), 60) ** 0.8 for m in mx]
-    tot = sum(w); return [12.56 * x / tot for x in w]
+    tot = sum(w); widths = [12.56 * x / tot for x in w]
+    # nudge columns wider when they hold long unbreakable words (URLs), then rescale to fit
+    longest = [max((len(t) for r in rows if c < len(r) for t in plain(r[c]).split()), default=4) for c in range(n)]
+    mins = [min(lw * TBL_PT * 0.62 / 72 + 0.2, 1.7) for lw in longest]
+    fixed = [max(a, b) for a, b in zip(widths, mins)]
+    tot = sum(fixed); return [12.56 * x / tot for x in fixed]
 def row_h(row, widths, pt=TBL_PT, bold=False):
     l = max(lines_for(c, w - 0.16, pt + 0.6) for c, w in zip(row, widths)) if row else 1
-    return l * pt * 1.28 + 8
+    return l * pt * 1.28 + 6
 
 # ---------- paginate ----------
 def paginate(sections):
@@ -94,7 +99,7 @@ def paginate(sections):
             if first:
                 if first['t']=='para': fh = para_h(first['text'])
                 elif first['t'] in ('bullets','numbered'):
-                    it = first['items'][0]; fh = lines_for(it if isinstance(it,str) else it[1], 12.2, BUL_PT)*BUL_PT*1.22+4
+                    it = first['items'][0]; fh = lines_for(it if isinstance(it,str) else it[1], 12.2, BUL_PT)*BUL_PT*1.22+3
                 elif first['t']=='table':
                     w = col_widths(first['rows']); fh = row_h(first['rows'][0], w) + row_h(first['rows'][1], w)
             sh = SUB_PT*1.3 + 10
@@ -110,7 +115,7 @@ def paginate(sections):
                         nb = blocks[bi + 1]
                         if nb['t'] == 'para': need += para_h(nb['text'])
                         elif nb['t'] in ('bullets', 'numbered'):
-                            it = nb['items'][0]; need += lines_for(it if isinstance(it, str) else it[1], 12.2, BUL_PT) * BUL_PT * 1.22 + 4
+                            it = nb['items'][0]; need += lines_for(it if isinstance(it, str) else it[1], 12.2, BUL_PT) * BUL_PT * 1.22 + 3
                         elif nb['t'] == 'table':
                             w = col_widths(nb['rows']); need += row_h(nb['rows'][0], w) + row_h(nb['rows'][1], w)
                     if used + need > AVAIL and cur['blocks']: newpage()
@@ -119,7 +124,7 @@ def paginate(sections):
                     batch = []
                     for it in b['items']:
                         txt = it if isinstance(it, str) else it[1]
-                        h = lines_for(txt, 12.2, BUL_PT) * BUL_PT * 1.22 + 4
+                        h = lines_for(txt, 12.2, BUL_PT) * BUL_PT * 1.22 + 3
                         if used + h > AVAIL and (batch or cur['blocks']):
                             if batch: cur['blocks'].append({'t': b['t'], 'items': batch}); batch = []
                             newpage()
@@ -128,7 +133,7 @@ def paginate(sections):
                 elif b['t'] == 'table':
                     rows = b['rows']; widths = col_widths(rows); hdr = rows[0]
                     hh = row_h(hdr, widths); body = rows[1:]; batch = []
-                    if used + hh + row_h(body[0], widths) > AVAIL and cur['blocks']: newpage()
+                    if used + hh + sum(row_h(r, widths) for r in body[:2]) > AVAIL and cur['blocks']: newpage()
                     used += hh
                     for r in body:
                         h = row_h(r, widths)
@@ -150,8 +155,12 @@ def build_package(n_white, n_blue):
         out = subprocess.check_output(['python3', add, 'un/', 'slide2.xml'], text=True)
         whites.append(re.search(r'slides/(slide\d+)\.xml', out).group(1))
     for _ in range(n_blue):
-        out = subprocess.check_output(['python3', add, 'un/', 'slide5.xml'], text=True)
+        out = subprocess.check_output(['python3', add, 'un/', 'slideLayout8.xml'], text=True)
         blues.append(re.search(r'slides/(slide\d+)\.xml', out).group(1))
+    # top lockup (logo + rule + Change History) as used on the cover; lives in layout 4's media
+    l4 = open('un/ppt/slideLayouts/_rels/slideLayout4.xml.rels').read()
+    lock = re.search(r'Target="\.\./media/(image\d+\.png)"', l4).group(1)
+    shutil.copy(f'un/ppt/media/{lock}', 'lockup.png')
     return whites, blues
 
 def set_order(order_names):
@@ -255,13 +264,16 @@ def fill_white(slide, page):
             y += H + Pt(12)
 
 def fill_divider(slide, page, idx, total):
-    strip_shapes(slide, lambda s: is_title(s) or is_rule(s))
+    strip_shapes(slide, lambda s: False)
     t = page['title']; num, name = (t.split('. ', 1) if '. ' in t else ('', t))
-    set_title(slide, 'Website Audit')
-    tf = add_textbox(slide, LEFT, Inches(2.4), WIDTH, Inches(1.2)); p = tf.paragraphs[0]
-    r = p.add_run(); r.text = f'Section {num}' if num else ''; style_run(r, 14, bold=True, color=YELLOW)
-    tf2 = add_textbox(slide, LEFT, Inches(2.9), WIDTH, Inches(2)); p = tf2.paragraphs[0]
-    r = p.add_run(); r.text = name; style_run(r, 34, bold=True, color=WHITE)
+    # same top lockup as the cover, same position
+    slide.shapes.add_picture('lockup.png', Emu(304800), Emu(325957), Emu(11558021), Emu(949044))
+    # same title box as the cover: bottom-anchored, 53pt bold white, 90% line spacing
+    tb = slide.shapes.add_textbox(Emu(304800), Emu(2043611), Emu(10261500), Emu(2149200)); tf = tb.text_frame
+    tf.word_wrap = True; tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0
+    tf.vertical_anchor = MSO_ANCHOR.BOTTOM
+    p = tf.paragraphs[0]; p.line_spacing = 0.9
+    r = p.add_run(); r.text = name; style_run(r, 53, bold=True, color=WHITE)
 
 def fill_cover(slide):
     for sh in slide.shapes:
@@ -274,14 +286,14 @@ def fill_toc(slide, entries):
     strip_shapes(slide, is_title); set_title(slide, 'Contents')
     half = math.ceil(len(entries) / 2)
     for col, chunk in enumerate((entries[:half], entries[half:])):
-        x = LEFT + col * Inches(6.4)
-        tf = add_textbox(slide, x, TOP, Inches(6.0), BOTTOM - TOP); first = True
+        x = LEFT + col * Inches(6.45)
+        tf = add_textbox(slide, x, TOP, Inches(6.3), BOTTOM - TOP); first = True
         for name, pg in chunk:
             p = tf.paragraphs[0] if first else tf.add_paragraph(); first = False; p.space_after = Pt(7)
             num, nm = (name.split('. ', 1) if '. ' in name else ('', name))
-            r = p.add_run(); r.text = f'{num}.  ' if num else ''; style_run(r, 12, bold=True, color=BLUE)
-            r = p.add_run(); r.text = nm; style_run(r, 12, bold=True)
-            r = p.add_run(); r.text = f'    p. {pg}'; style_run(r, 10, color=GRAY)
+            r = p.add_run(); r.text = f'{num}.  ' if num else ''; style_run(r, 13, bold=True, color=BLUE)
+            r = p.add_run(); r.text = nm; style_run(r, 13, bold=True)
+            r = p.add_run(); r.text = f'   p. {pg}'; style_run(r, 11, color=GRAY)
 
 def main():
     sections = parse(open(SRC).read())
