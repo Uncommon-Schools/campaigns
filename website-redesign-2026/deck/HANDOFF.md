@@ -174,3 +174,21 @@ Let me know your thoughts.
 2. Task 3: ask Anthony to attach the template .pptx and the v1 deck .pptx here. Fix the deck.
 3. Task 2: build the sitemap spreadsheet.
 4. Then Tasks 4 to 7.
+
+---
+
+## Session notes — August 31, 2026
+
+**Task 3 (deck) is DONE.** v3 delivered: 58 pages, sections 0–12; sections 13–17 cut (Spinutech's work). All March/comparison references removed from the deck and from deck_source.md. Section covers match the main cover (top lockup, 53pt title) and keep their bottom footer. Body/bullets 13pt, subheads 14pt, tables 11pt, titles 24pt. deck_source.md and build_deck.py in this folder are the v3 versions matching the delivered deck.
+
+**Current task: the Spinutech email (Task 1).** Scope approved by Anthony; write ONE draft, no options:
+- To Portia Griffin; cc Anneliese, Courtney, Mary Ann. Cordial, forward-looking.
+- Point: Spinutech drafts the four strategy documents (taxonomy, navigation, keep/kill/consolidate, sitemap); Uncommon supplies inputs and decisions.
+- Why: standard agency strategy deliverables, and Spinutech names them as such; keep/kill/consolidate spans ~6,700 URLs and needs their analysis plus decisions from content owners and leadership; taxonomy is a large body of work Spinutech built for the client in their own example.
+- What Uncommon provides: a simple sitemap of current pages with internal stakeholder notes (Mary Ann's format), plus the v3 audit deck. Reference the deck in the email and leave a placeholder where Anthony drops the link. Include the seven-bullet "What the new audit adds" list from this file IN FULL, then close that section: with mobile now included, they have more than enough to hit the ground running.
+- Leave out: GA4 export, meeting agenda, sign-off list, anything not asked for.
+
+**Then:** Task 2, sitemap spreadsheet, rebuilt from scratch to a higher standard (~2,000 English pages, seven sites), for internal keep/kill/consolidate notes before handoff to Spinutech.
+
+**Task order update:** Tasks 5 and 6 are review tasks (Spinutech drafts; Uncommon reviews against the audit and stakeholder notes). Tasks 4 and 7 stand.
+
