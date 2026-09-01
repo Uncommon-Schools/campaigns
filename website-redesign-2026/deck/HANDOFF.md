@@ -28,7 +28,7 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional subdoma
 
 ## Open tasks, in the order Anthony wants them
 
-### Task 1: Email to Spinutech about division of labor (NOT DONE; five failed drafts)
+### Task 1: Email to Spinutech about division of labor (SENT August 31, 2026; Spinutech replied September 1)
 
 **Goal, in Anthony's words:** cordial, polite, professional. Manage expectations. Do not let Spinutech pass their work off to him. Cc Anneliese, Courtney, Mary Ann (per Mary Ann's Slack request).
 
@@ -126,6 +126,7 @@ Hard rules. Violating them costs trust immediately.
 13. When he says something is wrong, fix that thing and keep everything else. Do not overcorrect by stripping things he did ask for.
 14. Before any draft with more than one requirement, list the requirements back to him in a few lines and get a yes. Then write once against that list.
 15. He will tell you bluntly when work is bad. Do not apologize at length. Say what went wrong in one sentence and fix it.
+16. NEVER MAKE ANYTHING UP. Do not invent facts, names, timings, claims, or details Anthony did not state or that are not confirmed in source material. If something is unknown, say so or leave a bracket for him to fill in. This applies to drafts, recommendations, and questions alike.
 
 ## How the last agent failed (August 28), so you do not repeat it
 
@@ -170,10 +171,9 @@ Let me know your thoughts.
 
 ## Immediate next steps (in order)
 
-1. Task 1: Spinutech email. Start by sending Anthony the four-line requirements list. Get a yes. Write once.
-2. Task 3: ask Anthony to attach the template .pptx and the v1 deck .pptx here. Fix the deck.
-3. Task 2: build the sitemap spreadsheet.
-4. Then Tasks 4 to 7.
+1. Await Spinutech's hours estimate, broken out by document, and Mary Ann's decision on the change order.
+2. Support Anthony's input to the internal decision thread (Anneliese leads, Mary Ann decides, Courtney recommends).
+3. Then Tasks 4 to 7.
 
 ---
 
@@ -192,3 +192,37 @@ Let me know your thoughts.
 
 **Task order update:** Tasks 5 and 6 are review tasks (Spinutech drafts; Uncommon reviews against the audit and stakeholder notes). Tasks 4 and 7 stand.
 
+---
+
+## Session notes — September 1, 2026
+
+**Task 1 (Spinutech email) is DONE.** Sent August 31 as a reply on Spinutech's "Project Kick-Off Follow Up" thread, cc Anneliese, Courtney, Mary Ann. Final version dropped the "how agencies work" explanation (read as passive aggressive), dropped "more than enough to hit the ground running," added a line that the mood board ships this week, and kept the seven audit bullets in shortened form. Four details were cut from those bullets for length: popups blocking the mobile menu, the OCR citation, "no consent banner anywhere," and the Boston/Avela/Lever examples.
+
+**Task 2 (sitemap spreadsheet) is DONE.** Delivered as "Website Content Review - Keep Kill Consolidate.xlsx" and now live in Google Sheets. Built fresh from the August 26 sitemap XML in `01-audit/browser/raw/`, not from the rejected version.
+- 2,027 English pages; translated pages excluded (they follow the English page). Counts: Main site 788, NYC 95, Boston 52, Newark 56, Camden 47, Rochester 44, Curriculum Hub 945.
+- One tab per site plus a "Start here" tab with instructions and a Progress table that counts decisions live per site.
+- Columns: Section, Page, Web address (clickable), Page type, Last updated, What the audit found, Decision, Notes. Decision is a dropdown (Keep / Kill / Consolidate) in column G.
+- Rows grouped into plain-language sections (Enrollment, Careers, Donations, Paid campaign pages, etc.), 12pt type, frozen header, filter arrows.
+- Anthony converted the Decision dropdown to Google Sheets chips (green/red/orange) himself. Excel cannot carry that format in.
+- Audit notes appear only on rows the August audit flagged.
+
+**Mary Ann's point about the exercise (from her call with Anthony, September 1):** keep/kill/consolidate is not only an inventory. The current site is the only anchor stakeholders have to base feedback on, so the exercise is how we learn what functionality matters to them. But the current site is the baseline for gathering feedback, NOT the thing to rebuild. She also said the site is 8 years old, the executive team dislikes it, and the goal is "best in class at the specific thing we want to serve up, not broad stroke." She told Anthony to keep pushing Spinutech.
+
+**Spinutech's reply (Portia Griffin, September 1, 10:37 AM).** Their position, in their words: the SOW covers "Audit Review of Client-Provided Materials" and "Review Site Architecture," meaning Spinutech reviews a client-provided website performance analysis, sitemap, and taxonomy and gives recommendations. Drafting and creating the four strategy documents falls outside the estimate, so it needs a change order. They offered: an hours estimate in 1 to 2 days on confirmation; roughly 4+ weeks added to the timeline, driven mainly by keep/kill/consolidate across 6,700 URLs; and Uncommon's role unchanged (inputs, stakeholder feedback, final decisions).
+
+**Anthony's read, and the real issue.** Spinutech's role keeps shrinking to reviewing what Uncommon hands them. Their own documents show it: Uncommon produced the 75-finding audit, Spinutech asked Uncommon for the mood board, journey maps, content pillars, regional performance data, and all copy, and the September 22 visual session is "based on the materials provided by Anthony." If Spinutech only reacts to Uncommon's inputs, the new site becomes Uncommon's thinking about its current site, built in WordPress by someone else. Uncommon said from the start it does not want a tweaked version of the existing site.
+
+**Internal decision thread (Anneliese, September 1, 11:05 AM).** RAPID: Courtney recommends, Anneliese and Anthony give input, Anneliese performs, Mary Ann decides. Her open questions: can Anthony create these documents faster than 4 weeks, and is there anyone else who could.
+
+**REJECTED WORK — REDO FROM SCRATCH. Do not reuse, adapt, or build on any of it.**
+
+Two deliverables were attempted on September 1 and rejected by Anthony:
+
+1. *Anthony's reply to the internal thread.* Multiple drafts, all rejected. Write this fresh. Ask Anthony what he wants it to say before drafting; do not assume the prior framing was correct.
+2. *Questions for the September 1, 1:30 PM Spinutech call.* Multiple sets, all rejected. Anthony's stated objections: they were quiz-style rather than direct questions a client asks a vendor; several asked about things Portia had already answered in writing (notably the 4-week timeline); one set was built around a purpose for the call that Anthony never stated; the prior-client-work question was irrelevant. The call has now happened. Ask Anthony what came out of it before proposing any follow-up.
+
+Any recommendation the previous agent gave on the change order, the scoping split, or the SOW should be treated as unverified opinion, not settled direction. Confirm current thinking with Anthony directly.
+
+**Where things stand.** Awaiting Spinutech's hours estimate and Mary Ann's decision. The 1:30 PM call on September 1 has happened; its outcome is not recorded here. Get it from Anthony.
+
+**How this session went wrong, so the next agent avoids it.** Repeated the August 28 failures, and Anthony ended the session because of it. Over-explained things Spinutech and the internal team already knew, then over-corrected by stripping information Anthony had asked for. Added details he never gave (that stakeholders own specific site areas; a named contractor as an alternative). Wrote questions for the Spinutech call that were quiz-style, asked about things Portia had already answered in writing, and invented a purpose for the call he never stated. Used unclear, machine-like phrasing he had to ask about twice. Fixes: hold every stated requirement at once instead of reacting to the last complaint; never add a fact not given; when shortening, cut words and not content; write questions that a client asks a vendor, not a teacher asks a student.
