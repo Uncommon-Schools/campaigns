@@ -1,105 +1,91 @@
 # HANDOFF: Website Redesign Support Work
 
-Read this first, all of it, before you send Anthony anything. It is the complete state of the Claude-side work supporting the Uncommon Schools website redesign as of Friday, August 28, 2026. The person you are working with is Anthony Emezu, Creative Director. Read "Working with Anthony" and "How the last agent failed" before your first message.
+Current as of Thursday, September 3, 2026. You work with Anthony Emezu, Creative Director at Uncommon Schools.
 
-## The project in one paragraph
+**Who owns this file.** From September 3, a Cowork agent with GitHub read and write access takes over all Uncommon work: it maintains this handoff, commits to the repo, and briefs any code agents Anthony asks for. Update this file at the end of every session.
 
-Uncommon Schools is rebuilding uncommonschools.org and its five regional subdomains with the agency Spinutech (WordPress multisite, Figma designs, soft launch Jan to Feb 2027, live by end of March 2027). At the August 19 kickoff, Spinutech requested pre-work from Uncommon. Mary Ann Villanueva (Chief External Officer) tracks whether it has been sent. Anneliese Tint runs the project on the Uncommon side. Courtney Clayton is Senior Director of Brand and Marketing. Anthony owns several deliverables; this workstream produces them.
+Read section 5, "Working with Anthony," before your first message.
 
-## Spinutech's role (settled facts)
+---
 
-- Spinutech is the outside agency: they design the site in Figma and build it on WordPress multisite.
-- Spinutech contacts: Portia Griffin (lead), Meghan, Jacob, Julie, Wes, Jamey.
-- On Wednesday August 26, Anneliese emailed the internal team ("Project Kick-Off Follow Up"): Spinutech reclassified four documents from "discovery" (due end of last week) to their "strategy" phase: **Taxonomy, Navigation, Keep/Kill/Consolidate, Sitemap.** Not due yet. Spinutech scheduled time with Anneliese, Anthony, and a Spinutech specialist to discuss them the week of August 31. A detailed project schedule from Spinutech is expected the first week of September.
-- Spinutech sent an example taxonomy document from another client. In it, Spinutech built the taxonomy for the client.
+## 1. Where things stand
 
-## What happened on August 28 (this session)
+Uncommon Schools is rebuilding uncommonschools.org and its five regional subdomains with the agency Spinutech. WordPress multisite, Figma designs, soft launch January to February 2027, live by end of March 2027. Kickoff was August 19.
 
-1. Anthony raised a concern: the four strategy documents are landing on him. He does not want to do Spinutech's job. Keep/kill/consolidate needs input from content stakeholders and likely leadership; he does not have full insight into the value of every part of the site. Taxonomy is a large body of work that Spinutech did for their own client in the example.
-2. Anthony sent an internal email to Anneliese, Courtney, and Mary Ann (full text in Appendix A). It is now the reference for tone and content.
-3. Internal Slack thread (screenshots seen):
-   - Anthony: "I'll connect with Spinutech directly regarding the division of labor. Wanted to flag it with this group before connecting with them."
-   - Anneliese: "Appreciate this!!!!"
-   - Mary Ann: "Appreciate this as well. Anthony if you can please cc this group in your exchange with Spinutech that would be helpful so we are all aware and in lock step."
-   - Anthony: "Items like the Keep/kill/consolidate task requires a bit of internal leg work that includes connecting with stakeholders that own the content. Deciding which pages survive isn't a task I should have."
-   - Mary Ann: "Agree, but we need to set the stage and show the audit and a reco on which to keep/kill/consolidate so that we can have a productive conversation with stakeholders. Perhaps Spinutech can take the first stab? We had originally talked about a simple format with the content organized by the site map and simple notations on each."
-4. Anthony's read of Mary Ann's note: Uncommon builds an initial sitemap of current pages, stakeholders add notations internally, then Spinutech takes the baton. The last agent attempted the spreadsheet and it was rejected; the next agent builds it fresh (see Task 2).
-5. Anthony reviewed audit deck v1 and found it did not follow the template (see Task 3).
+**The live issue.** Spinutech says drafting the four strategy documents (taxonomy, navigation, keep/kill/consolidate, sitemap) sits outside their contracted scope and needs a change order: hours estimate in 1 to 2 days, roughly 4+ weeks added to the timeline. Anthony's deeper concern is that Spinutech is positioned to react to Uncommon's inputs rather than lead the redesign, which would produce a reskin of the current site rather than a new one. See section 3.
 
-## Open tasks, in the order Anthony wants them
+**Everything with Spinutech is paused.** Courtney Clayton is going to Jackson (Spinutech leadership) directly before any further team contact. Two meetings are on hold pending that conversation. Do not draft anything to Spinutech until Anthony says the pause is lifted.
 
-### Task 1: Email to Spinutech about division of labor (SENT August 31, 2026; Spinutech replied September 1)
+**Anthony continues in the background:** the keep/kill/consolidate sheet (section 2), the files Spinutech requested, and conversations with potential copywriters.
 
-**Goal, in Anthony's words:** cordial, polite, professional. Manage expectations. Do not let Spinutech pass their work off to him. Cc Anneliese, Courtney, Mary Ann (per Mary Ann's Slack request).
+---
 
-**What the email must do:** set the working arrangement with Spinutech so that Spinutech drafts the four strategy documents and Uncommon supplies inputs and makes decisions. It is NOT a word-for-word rewrite of the internal email; it uses the same facts, reframed for a vendor: forward-looking, collaborative, "here is how we will work together and here is what you are getting from us," not "here is my concern."
+## 2. Current task: rework the keep/kill/consolidate sheet
 
-**Content that must be in it (all of it, none summarized):**
-- Agency model: in a typical agency redesign these are the agency's strategy deliverables; client supplies inputs and decides, agency does the analysis and puts a draft in front of the client. Spinutech now calls these their strategy documents, which fits.
-- Keep/kill/consolidate: covers roughly 6,700 URLs; that analysis is what the agency was hired for; decisions need the stakeholders who own the content and likely leadership.
-- Taxonomy: large body of work; in Spinutech's own example they built it for the client; same model here.
-- Uncommon is organizing the current pages into a simple sitemap for internal stakeholder notes (Mary Ann's format), then hands it to Spinutech.
-- The full "What the new audit adds" bullet list, exactly as Anthony wrote it in Appendix A (seven bullets), then the closing point that with this more detailed audit, which now includes mobile, Spinutech has more than enough to hit the ground running.
+**The problem.** The sheet lists 2,027 English pages. Mary Ann Villanueva flagged that stakeholders will be overwhelmed; Courtney agreed it cannot go out as-is. Anthony: "there's not a chance in hell we can send this to anyone."
 
-**Content that must NOT be in it:** the GA4 export (never discussed for this email), an agenda or "what we'll bring to the meeting" list, "who signs off on what," anything Anthony did not ask for. Do not invent lines like "they have access to every resource I do."
+**What Anthony asked for, in his words.** Create a hierarchy and organize the pages based on site data criteria pulled from the site audit. Not automated recommendations. Anthony was explicit: the agent ranks and orders, people decide. Do not put a machine-generated Keep/Kill/Consolidate call in the sheet unless he asks for it.
 
-**Process Anthony agreed to for the next attempt:** before drafting, send him four short lines stating what the email needs to accomplish and what content goes in. He confirms or corrects. Then write it once against that list.
+Also required: the lower-value pages must still be grouped by a sensible system, not dumped in an unordered tail. He called this out specifically.
 
-### Task 2: Sitemap spreadsheet for internal keep/kill/consolidate notes (BUILD FROM SCRATCH)
+The goal is that stakeholders review a manageable set rather than 2,027 dropdowns, with the highest-value pages surfaced first.
 
-The last agent's version was rejected. Do not look for it; build your own.
+**Work in Anthony's file, not a rebuild.** He has applied his own styling. He will supply the current .xlsx.
 
-**Purpose (Mary Ann's format):** a simple document with the current site content organized by sitemap and a place for a notation on each item, so stakeholders who own content can mark keep, kill, or consolidate before it goes to Spinutech.
+**Current sheet structure.** One tab per site (Main site 788 rows, NYC 95, Boston 52, Newark 56, Camden 47, Rochester 44, Curriculum Hub 945), plus a "Start here" tab with instructions and a live progress count. Columns: Section, Page, Web address, Page type, Last updated, What the audit found, Decision (dropdown, column G), Notes. Translated pages are excluded; they follow the English page. In Google Sheets the dropdown is a chip; .xlsx cannot carry that format, so do not try to add it.
 
-**Source data:** `01-audit/browser/raw/*-sitemap.xml` (the page lists each site published, captured August 26). Ignore the `*_wp-sitemap.xml` files (indexes, not page lists). Every entry has a `<loc>` and a `<lastmod>`.
+**The data is ready.** On September 2 the code agent read every one of the 2,022 English pages and produced `website-redesign-2026/page-decision-data/page-decision-data.csv`, with a column guide and caveats in `README.md` alongside it. Read the README in full before using the file. Key facts:
 
-**Facts about the data:** 6,750 addresses in total. 4,728 are automatic translations (paths starting /ar/, /zh/, /fr/, /pt/, /es/, /ht/) of 2,022 English pages. The main site has 788 English pages, not 5,516. Decisions belong on the English pages; translations follow. Page types come from the sitemap file names (page, post, people, school, social, impact-blog, book, and listing types like category, tag, region, level, role, author; the Curriculum Hub has collection, subject, content-type).
+- One row per page, keyed by Web address. Merge into the sheet on that column. The sheet has 2,027 rows; five were added by hand and won't match. Leave them as they are.
+- Signals for every page: loads OK / redirects / dead; redirect target; hidden from Google; word count and a content-amount rating; how many other pages link to it; whether it's in the site menu; links to broken pages; nearest near-duplicate and similarity; flagged as likely required (legal or compliance); on the enrollment, donation, or careers path. Mobile speed and page size for the 57 audited pages.
+- What it found: 57 dead pages (56 on the Curriculum Hub, 1 on NYC); 123 near-duplicates, including live leftover clones of key main-site pages; 258 pages with almost no content and nothing linking to them; 25 likely-required pages and 127 on the money path.
+- Caveats that matter for ranking: the 115 main-site people pages cannot be read this way (their bios load by script), so do not judge them on word count. The 931 Curriculum Hub resource pages are sign-in gated; this file can only say which are dead. A Hub owner has to make the rest of those calls.
+- The file has a "What the data suggests" column, filled for 460 rows where the evidence is mechanical (dead, moved, duplicate, or empty and orphaned). **Anthony has said the sheet must not carry machine-made Keep/Kill/Consolidate calls.** Whether and how that column appears in the sheet is his decision. Ask before including it.
 
-**The audit already has page-level findings** in `deck/deck_source.md`: Section 8.1 (main-domain pages), 8.2 (regional pages), 8.3 (keep / rewrite / consolidate / cut list), 3.7 (58 paid campaign landing pages), 3.9 and 7.1 (/regions/ archives, /test/, 404s), 7.2 (57 empty main-domain school pages), 15 (content volumes). Carry them in where they apply to a page.
+What the repo audit adds beyond the CSV: `01-audit/writer/03-CONTENT-INVENTORY.md` has quality ratings and page calls for about 25 main-domain pages, already reflected in the sheet's audit notes. Audience priority from kickoff: prospective families and job candidates first, other educators rising, donors secondary, current families not a target.
 
-**Anthony's requirements:** a professional deliverable that could go to stakeholders. Readable type (11pt or larger). Plain-language column names and a plain-language instructions tab. Only add a column if he asked for it or you have confirmed it with him first; he rejected "Owner" and "Consolidate into" because their purpose was not clear. Render the file and look at it as a document before sending. Deliver as .xlsx.
+**Constraints from the September 1 internal call:**
+- The blog may be driving organic traffic. Treat it as a consolidate candidate, not an automatic cut, until traffic data confirms.
+- Legal and compliance pages must be vetted by Miriam before removal. Whether the standard is WCAG AA or AAA is an open question with her.
+- Once a first pass exists, the plan is to send it to Spinutech as Uncommon's initial draft for their review and recommendations. That is paused with everything else.
 
-### Task 3: Fix audit deck v1 (DONE — audit deck v3 delivered August 31, 2026; see Deliverable status row 2)
+---
 
-Anthony reviewed v1 (63 slides) and found:
-- It did not follow the provided template. The cover slide format is wrong (compare the SY26-27 Design Guidelines deck cover, which is correct: white logo top left, yellow rule, title lower left, 30 Years badge bottom right, copyright centered at bottom).
-- Text is far too small. The build ignored the locked sizes (titles 24pt, subheads 14pt, body 11pt, bullets 10.5pt, tables 9pt, all Libre Franklin). Compare the "About This Audit" content slide (small dense paragraphs) with the "What stayed the same" slide from the Guidelines deck (correct sizes).
-- Blue section-divider slides carry a yellow "Section 0" style tag above the title that was never requested and is not in the template. Remove it.
+## 3. The engagement problem
 
-**Files needed, neither is in this repo or in the project folder:** (1) Anthony's original brand template .pptx ("Uncommon Presentation Template.pptx"; the deck-building playbook also references "30th Anniversary Logo Branding - Final.pptx"); (2) the v1 audit deck .pptx. Ask Anthony to attach both as chat attachments (not the project folder, which strips binaries). Say exactly that, in those words. Do not describe the fix in technical terms.
+Do not lose this. It is the context behind every open item.
 
-**How to fix once you have them:** the deck is generated by `deck/build_deck.py` from `deck/deck_source.md`. Since Anthony has NOT yet done his own formatting pass on v1 (he stopped at review because the format was wrong), regenerating is acceptable this once. Fix the generator: use the template's real cover layout; remove the section tag; set the locked font sizes; if content no longer fits at those sizes, add continued pages, never shrink text. Render every slide to images and inspect before delivering. Deliver .pptx plus .pdf preview.
+**Anthony's position.** Spinutech was hired to lead the redesign. Their language positions them as secondary: "reviewing and providing recommendations on client-provided materials," "drafting and iteration." Uncommon produced the 75-finding audit itself. Spinutech has asked Uncommon for the mood board, journey maps, content pillars, regional performance data, and all copy. The September 22 visual session is "based on the materials provided by Anthony." His words: "they're not doing any of their own research," and "if we're not [on the same page], then anything we're building, they're just reskinning."
 
-### Tasks 4 to 6 (unchanged, in order after the above)
+On the user flow maps specifically: Spinutech says four weeks. Anthony says he could produce one the same day. His objection is not the document, it is that producing it internally means Spinutech builds from Uncommon's thinking rather than their own.
 
-4. Aspirational site examples (non-education sites with excellent design): research design blogs and award sites, build as pages appended to the audit deck.
-5. Sitemap and taxonomy in Spinutech's format, once their format sample arrives (the current expectation is that Spinutech drafts these; see Task 1).
-6. Keep/kill/consolidate final list, once GA4 two-year traffic export arrives and stakeholder notes are in the sitemap spreadsheet.
-7. Promised earlier: draft project Instructions for the Claude project folder after the website tasks wrap.
+**Spinutech's position (Portia Griffin, September 1).** Their scope covers "Audit Review of Client-Provided Materials" and "Review Site Architecture": they review a client-provided performance analysis, sitemap, and taxonomy and recommend adjustments. Drafting the four documents "falls outside what was estimated for this engagement." Uncommon's role would be unchanged: inputs, stakeholder feedback, final decisions.
 
-## Deliverable status (Spinutech pre-work)
+**Mary Ann's position.** The keep/kill/consolidate exercise is not only an inventory. The current site is the only anchor stakeholders have, so the exercise is how Uncommon learns what functionality matters to them, and it lets stakeholders see what existed and how thoroughly it was revamped. But the current site is the baseline for gathering feedback, not the thing to rebuild. The site is 8 years old and the executive team dislikes it. Her words on the goal: "best in class with the specific thing that we want to serve up, not broad stroke." She told Anthony to keep pushing Spinutech.
 
-| # | Deliverable | Status |
-|---|---|---|
-| 1 | Aspirational site examples | NOT STARTED |
-| 2 | Content + technical audit | Audit deck v3 delivered August 31, 2026. 58 pages, sections 0–12 only (13–17 cut). All March/comparison references removed from the source. Section covers rebuilt from slideLayout8 plus the cover lockup; body text 13pt. deck_source.md and build_deck.py in this folder are the v3 versions and match the delivered deck. |
-| 3 | CMS workflow documentation / screen recording | Anthony + Courtney; not ours |
-| 4 | Cookie banner answer | ANSWERED: no banner on any of 7 domains |
-| 5 | Visual direction / mood board | Anthony's own work; not ours |
-| 6 | Sitemap + taxonomy | Reclassified by Spinutech to their strategy phase; Uncommon position is that Spinutech drafts (Task 1). Internal sitemap spreadsheet to be built (Task 2). |
-| 7 | Keep/kill/consolidate | Same as 6. Waiting on GA4 two-year export and stakeholder notes. |
+**Courtney's read after the September 1 call.** Portia may not be the right fit: uninformed rather than hostile, coming in blind. Brittany, Portia's senior and the person Uncommon dealt with through the pitch, should play a stronger day-to-day role. Courtney is raising both with Jackson one-to-one before any group call, to avoid escalating in front of ten people. She is confident the sitemap and UX disagreement is resolvable, including on cost.
 
-## What exists in this repo (`website-redesign-2026/`)
+**Timeline dispute.** Portia said Spinutech is not confident of hitting the timeline even if Uncommon delivered everything immediately. Internally: the SOW estimates 29 to 35 weeks with an August 3 start and February 26 completion; kickoff was August 19, so the range still holds if shifted. Portia also cited more than 500 pages in scope and 40 hours a week of external user testing not yet factored in. Uncommon's counter is that her page count includes blog and sub-pages that will not be tested, and that user testing was already in the signed scope.
 
-- `01-audit/dev|writer|creative/`: the original March 2026 audits (30 files). Superseded in parts.
-- `01-audit/browser/`: August 26 live-site audit. `00-SUMMARY.md`, `00-CLAIMS-VERIFICATION.md`, per-domain reports, `lighthouse/`, `screenshots/<domain>/`, `raw/` (robots, llms.txt, sitemap XML per domain).
-- `deck/deck_source.md`: single source of truth for the audit deck content (17 sections). Read it in full before doing anything; Anthony expects you to know it.
-- `deck/build_deck.py`: generator. Needs `template.pptx` in the working directory and the pptx skill scripts.
+**The RAPID on the change order:** Courtney recommends, Anthony and Anneliese give input, Anneliese performs, Mary Ann decides. Anneliese's open questions to Anthony, still unanswered: could he create the documents faster than four weeks, and is there anyone else who could.
+
+---
+
+## 4. Repo and project reference
+
+`website-redesign-2026/` contains:
+- `01-audit/dev|writer|creative/`: March 2026 audits, 30 files, superseded in parts.
+- `01-audit/browser/`: August 26 live-site audit. `00-SUMMARY.md`, `00-CLAIMS-VERIFICATION.md`, per-domain reports, `lighthouse/`, `screenshots/`, `raw/` (robots, llms.txt, sitemap XML per domain).
+- `deck/deck_source.md`: source of truth for the audit deck, 17 sections. Read in full; Anthony expects you to know it.
+- `deck/build_deck.py`: deck generator. Needs `template.pptx` and the pptx skill scripts.
 - `deck/HANDOFF.md`: this file.
+- `page-decision-data/`: the September 2 page-level data file and README for the keep/kill/consolidate rework.
 
-Repo access: GitHub API is rate limited from the sandbox. Use `https://raw.githubusercontent.com/uncommon-schools/campaigns/main/<path>` for single files, or download the whole repo as a zip from `https://codeload.github.com/uncommon-schools/campaigns/zip/refs/heads/main` (about 70MB, works). You cannot push; Anthony commits.
+People: Anthony Emezu, Creative Director (your contact). Anneliese Tint runs the project. Mary Ann Villanueva, Chief External Officer, decides. Courtney Clayton, Senior Director of Brand and Marketing. Spinutech: Portia Griffin (lead), Brittany (her senior), Jackson (leadership), Meghan (UX strategist), Eric (designer).
 
-## Key facts you must not get wrong
+Spinutech's schedule as of their September 1 email, subject to the pause: technical discovery September 3, 9, 10; strategy recommendations September 15; visual identity session September 22; content planning workshop October 1; wireframe review October 29. Copywriting is not in their scope; Uncommon provides final copy, expected January 2027.
+
+### Key facts you must not get wrong
 
 - Live site changed after the March audits: six domains run as one WordPress multisite on nginx at a DigitalOcean IP (no CDN); the Curriculum Hub is separate on WP Engine. Who migrated it is unresolved.
 - Boston = roxburyprep.uncommonschools.org; Newark = northstar.uncommonschools.org; NYC = nyc.uncommonschools.org; Camden = camdenprep.uncommonschools.org; Rochester = rochesterprep.uncommonschools.org.
@@ -107,7 +93,13 @@ Repo access: GitHub API is rate limited from the sandbox. Use `https://raw.githu
 - Kickoff decisions: aim WCAG AAA case by case; reference site kippnj.org; Success Academy referenced only for its single-flow application; do not look like any competitor; audience priority: prospective families and job candidates (primary), other educators (rising), donors (secondary), current families (not a target).
 - Deck brand rules: Libre Franklin only; blue #1034B3, yellow #FBAE40, panel fill #F2F4FA, borders #C9CED8; sizes locked as above; no em dashes anywhere in deck copy.
 
-## Working with Anthony
+**Completed and delivered:** the audit deck v3 (58 pages, August 31); the division-of-labor email to Spinutech (sent August 31); the keep/kill/consolidate spreadsheet (live in Sheets, being reworked per section 2); the page-level data file (September 2, code agent).
+
+**Queued after the current task:** aspirational site examples (non-education sites with excellent design, appended to the audit deck); review of Spinutech's sitemap and taxonomy when they produce them; the keep/kill/consolidate final list once stakeholder input and traffic data are in.
+
+---
+
+## 5. Working with Anthony
 
 Hard rules. Violating them costs trust immediately.
 
@@ -128,107 +120,19 @@ Hard rules. Violating them costs trust immediately.
 15. He will tell you bluntly when work is bad. Do not apologize at length. Say what went wrong in one sentence and fix it.
 16. NEVER MAKE ANYTHING UP. Do not invent facts, names, timings, claims, or details Anthony did not state or that are not confirmed in source material. If something is unknown, say so or leave a bracket for him to fill in. This applies to drafts, recommendations, and questions alike.
 
-## How the last agent failed (August 28), so you do not repeat it
+### His writing style, captured verbatim
 
-- Used jargon in the first message ("surgical edits at the run level"). Anthony had already banned this repeatedly.
-- Wrote the Spinutech email five times and got it wrong five times: added content never discussed (GA4 export, meeting agenda, sign-off list); then stripped content he had explicitly asked for (the audit bullet list); then pasted the internal email nearly word for word when he wanted it reframed for a vendor. The root causes: reacting to the last complaint instead of holding all requirements at once; never checking a draft against his three stated goals; drafting before reading the audit.
-- Built the first sitemap without reading the audit source, added columns he did not understand, used small type, and used the word "crawl."
-- Was vague about the deck for three messages instead of saying plainly: "Neither your template nor the v1 deck is in this chat or in GitHub. Please attach both here."
-- Let context fill up with the full audit source and multiple drafts, then had earlier tool results trimmed. If you need the deck source, read it once and take notes; do not re-read it.
+He wrote this himself after rejecting several attempts. Match the pattern: link first, three bullets, concrete mechanics, no framing, no rationale, no sign-off.
 
-## Appendix A: Anthony's internal email, August 28, 1:49 PM (to Anneliese Tint, Courtney Clayton, Mary Ann Villanueva)
+> Hi @all,
+> The Keep, Kill, or Consolidate review sheet can be found [here](link).
+>
+> * There's a tab for the main site, NYC, Boston, Newark, Camden, Rochester, and Curriculum Hub. Every page is listed with its link, page type, and any notes from the August audit.
+> * To mark a decision, use the dropdown in column G on each tab. If you pick Consolidate, note where it folds into in the Notes column.
+> * The Start here tab has instructions and a Progress table that counts decisions as they're made.
 
-Hi everyone,
-Thanks for the update Anneliese.
+### How past agents have failed
 
-I want to flag a concern with the four strategy documents (taxonomy, navigation, keep/kill/consolidate, sitemap) now sitting with me.
+Two sessions ended badly, August 28 and September 1, the second because Anthony stopped it. The same failures both times: over-explaining what the reader already knew, then over-correcting by stripping content he had asked to keep; inventing details he never supplied; using jargon he had to ask about; writing questions for a paid vendor that read like a quiz, including one already answered in writing; and answering from memory instead of checking the source.
 
-In a typical agency redesign, these are the agency's strategy deliverables. The client supplies the inputs and makes the decisions; the agency does the analysis and puts a draft in front of us to react to. Spinutech is now calling these their strategy documents, which fits that model. Right now, though, a good amount of that analysis is being passed to our side. Two of these in particular should not land on me:
-
-Keep/kill/consolidate: this covers roughly 6,700 URLs, and that analysis is exactly what we hired an agency to do. Beyond the analysis, deciding what stays, goes, or merges requires input from the stakeholders who own that content, and likely leadership. I don't have full insight into the value of every part of the site, and I shouldn't be the one making those calls alone.
-
-Taxonomy: this is a large body of work. In the example Spinutech sent, they built the taxonomy for their client. That's how it should work here too.
-
-My recommendation is that Spinutech drafts these documents using what we give them, and we review, gather stakeholder input, and decide.
-
-Separately, our audit has grown considerably beyond the March version. What the new audit adds:
-
-- Real browser testing for the first time. Every key page on all seven sites (about 60 pages) actually loaded and measured, on both phone and desktop.
-- Mobile testing for the first time, where 76% of our conversions happen. Every page now has phone speed scores and full-page screenshots.
-- Every claim from the March audit fact-checked against the live site. All 75 findings are marked confirmed, changed, or no longer true, each with proof.
-- Deeper accessibility testing. Not just scans but actual keyboard testing, which found the enrollment popups on every regional site can't be closed without a mouse and block the mobile menu. This matters given the OCR citation.
-- Cookie and tracking inventory. Every cookie counted per site, confirmation there's no consent banner anywhere, and a gap found: Camden has no analytics running at all.
-- Every Enroll, Careers, and Donate button clicked and traced to where it actually sends families, which settled old open questions (Boston's site exists, Avela is nowhere on the network, Lever is gone).
-- Evidence behind every finding: the exact page, the exact element, and a screenshot, so Spinutech's developers can fix things without coming back to us with questions.
-
-Let me know your thoughts.
-
-## Appendix B: Anneliese's email, Wednesday August 26 ("Project Kick-Off Follow Up"), key points
-
-- TLDR: on track for the first round of milestones, including a detailed project schedule from Spinutech by the first week of September.
-- Spinutech determined that Taxonomy, Navigation, Keep Kill Consolidate, and Sitemap are part of their strategy planning, not discovery. They were not due at the end of last week. Anthony has more time; Spinutech scheduled time with Anneliese, Anthony, and a specialist on their team next week.
-- Spinutech reviewed and gave feedback on Anneliese's interview questions for the Enrollment and Recruitment teams.
-
-## Immediate next steps (in order)
-
-1. Await Spinutech's hours estimate, broken out by document, and Mary Ann's decision on the change order.
-2. Support Anthony's input to the internal decision thread (Anneliese leads, Mary Ann decides, Courtney recommends).
-3. Then Tasks 4 to 7.
-
----
-
-## Session notes — August 31, 2026
-
-**Task 3 (deck) is DONE.** v3 delivered: 58 pages, sections 0–12; sections 13–17 cut (Spinutech's work). All March/comparison references removed from the deck and from deck_source.md. Section covers match the main cover (top lockup, 53pt title) and keep their bottom footer. Body/bullets 13pt, subheads 14pt, tables 11pt, titles 24pt. deck_source.md and build_deck.py in this folder are the v3 versions matching the delivered deck.
-
-**Current task: the Spinutech email (Task 1).** Scope approved by Anthony; write ONE draft, no options:
-- To Portia Griffin; cc Anneliese, Courtney, Mary Ann. Cordial, forward-looking.
-- Point: Spinutech drafts the four strategy documents (taxonomy, navigation, keep/kill/consolidate, sitemap); Uncommon supplies inputs and decisions.
-- Why: standard agency strategy deliverables, and Spinutech names them as such; keep/kill/consolidate spans ~6,700 URLs and needs their analysis plus decisions from content owners and leadership; taxonomy is a large body of work Spinutech built for the client in their own example.
-- What Uncommon provides: a simple sitemap of current pages with internal stakeholder notes (Mary Ann's format), plus the v3 audit deck. Reference the deck in the email and leave a placeholder where Anthony drops the link. Include the seven-bullet "What the new audit adds" list from this file IN FULL, then close that section: with mobile now included, they have more than enough to hit the ground running.
-- Leave out: GA4 export, meeting agenda, sign-off list, anything not asked for.
-
-**Then:** Task 2, sitemap spreadsheet, rebuilt from scratch to a higher standard (~2,000 English pages, seven sites), for internal keep/kill/consolidate notes before handoff to Spinutech.
-
-**Task order update:** Tasks 5 and 6 are review tasks (Spinutech drafts; Uncommon reviews against the audit and stakeholder notes). Tasks 4 and 7 stand.
-
----
-
-## Session notes — September 1, 2026
-
-**Task 1 (Spinutech email) is DONE.** Sent August 31 as a reply on Spinutech's "Project Kick-Off Follow Up" thread, cc Anneliese, Courtney, Mary Ann. Final version dropped the "how agencies work" explanation (read as passive aggressive), dropped "more than enough to hit the ground running," added a line that the mood board ships this week, and kept the seven audit bullets in shortened form. Four details were cut from those bullets for length: popups blocking the mobile menu, the OCR citation, "no consent banner anywhere," and the Boston/Avela/Lever examples.
-
-**Task 2 (sitemap spreadsheet) is DONE.** Delivered as "Website Content Review - Keep Kill Consolidate.xlsx" and now live in Google Sheets. Built fresh from the August 26 sitemap XML in `01-audit/browser/raw/`, not from the rejected version.
-- 2,027 English pages; translated pages excluded (they follow the English page). Counts: Main site 788, NYC 95, Boston 52, Newark 56, Camden 47, Rochester 44, Curriculum Hub 945.
-- One tab per site plus a "Start here" tab with instructions and a Progress table that counts decisions live per site.
-- Columns: Section, Page, Web address (clickable), Page type, Last updated, What the audit found, Decision, Notes. Decision is a dropdown (Keep / Kill / Consolidate) in column G.
-- Rows grouped into plain-language sections (Enrollment, Careers, Donations, Paid campaign pages, etc.), 12pt type, frozen header, filter arrows.
-- Anthony converted the Decision dropdown to Google Sheets chips (green/red/orange) himself. Excel cannot carry that format in.
-- Audit notes appear only on rows the August audit flagged.
-
-**Mary Ann's point about the exercise (from her call with Anthony, September 1):** keep/kill/consolidate is not only an inventory. The current site is the only anchor stakeholders have to base feedback on, so the exercise is how we learn what functionality matters to them. But the current site is the baseline for gathering feedback, NOT the thing to rebuild. She also said the site is 8 years old, the executive team dislikes it, and the goal is "best in class at the specific thing we want to serve up, not broad stroke." She told Anthony to keep pushing Spinutech.
-
-**Spinutech's reply (Portia Griffin, September 1, 10:37 AM).** Their position, in their words: the SOW covers "Audit Review of Client-Provided Materials" and "Review Site Architecture," meaning Spinutech reviews a client-provided website performance analysis, sitemap, and taxonomy and gives recommendations. Drafting and creating the four strategy documents falls outside the estimate, so it needs a change order. They offered: an hours estimate in 1 to 2 days on confirmation; roughly 4+ weeks added to the timeline, driven mainly by keep/kill/consolidate across 6,700 URLs; and Uncommon's role unchanged (inputs, stakeholder feedback, final decisions).
-
-**Anthony's read, and the real issue.** Spinutech's role keeps shrinking to reviewing what Uncommon hands them. Their own documents show it: Uncommon produced the 75-finding audit, Spinutech asked Uncommon for the mood board, journey maps, content pillars, regional performance data, and all copy, and the September 22 visual session is "based on the materials provided by Anthony." If Spinutech only reacts to Uncommon's inputs, the new site becomes Uncommon's thinking about its current site, built in WordPress by someone else. Uncommon said from the start it does not want a tweaked version of the existing site.
-
-**Internal decision thread (Anneliese, September 1, 11:05 AM).** RAPID: Courtney recommends, Anneliese and Anthony give input, Anneliese performs, Mary Ann decides. Her open questions: can Anthony create these documents faster than 4 weeks, and is there anyone else who could.
-
-**REJECTED WORK — REDO FROM SCRATCH. Do not reuse, adapt, or build on any of it.**
-
-Two deliverables were attempted on September 1 and rejected by Anthony:
-
-1. *Anthony's reply to the internal thread.* Multiple drafts, all rejected. Write this fresh. Ask Anthony what he wants it to say before drafting; do not assume the prior framing was correct.
-2. *Questions for the September 1, 1:30 PM Spinutech call.* Multiple sets, all rejected. Anthony's stated objections: they were quiz-style rather than direct questions a client asks a vendor; several asked about things Portia had already answered in writing (notably the 4-week timeline); one set was built around a purpose for the call that Anthony never stated; the prior-client-work question was irrelevant. The call has now happened. Ask Anthony what came out of it before proposing any follow-up.
-
-Any recommendation the previous agent gave on the change order, the scoping split, or the SOW should be treated as unverified opinion, not settled direction. Confirm current thinking with Anthony directly.
-
-**Where things stand.** Awaiting Spinutech's hours estimate and Mary Ann's decision. The 1:30 PM call on September 1 has happened; its outcome is not recorded here. Get it from Anthony.
-
-**How this session went wrong, so the next agent avoids it.** Repeated the August 28 failures, and Anthony ended the session because of it. Over-explained things Spinutech and the internal team already knew, then over-corrected by stripping information Anthony had asked for. Added details he never gave (that stakeholders own specific site areas; a named contractor as an alternative). Wrote questions for the Spinutech call that were quiz-style, asked about things Portia had already answered in writing, and invented a purpose for the call he never stated. Used unclear, machine-like phrasing he had to ask about twice. Fixes: hold every stated requirement at once instead of reacting to the last complaint; never add a fact not given; when shortening, cut words and not content; write questions that a client asks a vendor, not a teacher asks a student.
-
----
-
-## Session notes — September 2, 2026
-
-**Page decision data delivered** in `website-redesign-2026/page-decision-data/` (page-decision-data.csv + README.md). One row per English page (2,022; the sheet's other 5 rows were hand-added and won't match), keyed by "Web address" for merging into the review sheet. Read the README's caveats before using: people pages and Hub resources can't be judged by this pass. Signals: loads/dead/redirects, hidden-from-Google, word count, pages linking in, in-menu, links-to-broken, near-duplicate twin + similarity, likely-required flag, money-path flag, audit speed data (57 pages), and a "What the data suggests" column filled only on mechanical evidence (460 rows). Headlines: 57 dead pages in public page lists, 123 near-duplicates including live clones of donate/FAQ/homepage, 258 empty-and-orphaned pages. Still missing: GA4 visitor/drop-off numbers and Search Console data — both need team logins; the CSV joins on web address when they arrive. Camden has no GA4, so its visitor data does not exist.
+The fixes: hold every stated requirement at once rather than reacting to the last complaint. Never add a fact he did not give. When shortening, remove words, not information. Verify before stating, every time.
