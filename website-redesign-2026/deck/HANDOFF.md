@@ -1,6 +1,6 @@
 # HANDOFF: Website Redesign Support Work
 
-Current as of Thursday, September 3, 2026. You work with Anthony Emezu, Creative Director at Uncommon Schools.
+Current as of Wednesday, September 9, 2026. You work with Anthony Emezu, Creative Director at Uncommon Schools.
 
 **Who owns this file.** From September 3, a Cowork agent with GitHub read and write access takes over all Uncommon work: it maintains this handoff, commits to the repo, and briefs any code agents Anthony asks for. Update this file at the end of every session.
 
@@ -18,36 +18,63 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional subdoma
 
 **Anthony continues in the background:** the keep/kill/consolidate sheet (section 2), the files Spinutech requested, and conversations with potential copywriters.
 
+The September 3 to 9 session worked only on the sheet. Nothing in it touched the Spinutech items, so section 3 and the pause are as of September 3. Do not assume the pause has lifted.
+
 ---
 
-## 2. Current task: rework the keep/kill/consolidate sheet
+## 2. Current task: put the initial decisions into the sheet
 
-**The problem.** The sheet lists 2,027 English pages. Mary Ann Villanueva flagged that stakeholders will be overwhelmed; Courtney agreed it cannot go out as-is. Anthony: "there's not a chance in hell we can send this to anyone."
+**Where the sheet stands.** The rework is done and delivered. Anthony's current file is "Website Redesign KeepKillConsolidate V3.xlsx" (exported from Google Sheets on September 9). He will attach it at the start of the session; work in that file. No decisions are filled in yet.
 
-**What Anthony asked for, in his words.** Create a hierarchy and organize the pages based on site data criteria pulled from the site audit. Not automated recommendations. Anthony was explicit: the agent ranks and orders, people decide. Do not put a machine-generated Keep/Kill/Consolidate call in the sheet unless he asks for it.
+What the sheet is now:
 
-Also required: the lower-value pages must still be grouped by a sensible system, not dumped in an unordered tail. He called this out specifically.
+- One tab per site plus "Start here." Rows per tab: Main site 792, NYC 94, Boston 53, Newark 55, Camden 47, Rochester 45, Curriculum Hub 946. That is 2,022 pages plus 10 bold set rows. The five repeat Donor dashboard rows from the old sheet were deleted on Anthony's say-so.
+- Columns: A Review group, B Section, C Page, D Web address, E What we know, F Views (12 months), G Decision (yellow, dropdown Keep, Kill, Consolidate), H Notes, I Pick needed (hidden; "yes", "set", or "in a set"; it drives the Progress table). Anthony dropped Page type, Last updated, and Visitors, and merged the audit note and the site facts into What we know.
+- Review group sorts every tab from most to least important: 1 Core pages (in the site menu or on the enroll, donate, or careers path), 2 Legal and compliance, 3 Content pages (250 or more words, or at least one page linking in), 4 Content not readable from outside (staff bios; Curriculum Hub resources), 5 Thin pages nothing links to, 6 Paid campaign pages, 7 Dead or moved. Inside a group, pages keep section order; inside a section, most viewed first; Homepage first.
+- Sets: one bold row with a yellow Decision cell covers a set of look-alike pages; the members underneath are grey, with no yellow cell. Sets: 141 social media posts, 106 live staff profiles, 76 auto-generated listing pages, and 57 school pages (all Main site); 10 to 13 paid campaign pages on each regional tab; 57 dead subject pages (Curriculum Hub). Anthony refused a set for the 870 Hub resources: each gets its own pick. Sets cut the picks from 2,022 to 1,536 (Main 412, NYC 84, Boston 41, Newark 43, Camden 34, Rochester 33, Hub 889).
+- Views (12 months) comes from Google Analytics, September 3, 2025 to September 2, 2026, for the main site and the five regionals, pulled from the main uncommonschools.org property (it also receives the regional hostnames) by filtering on each site's hostname. Regional pages below what the pull captured say "Under N," where N is one more than the smallest count the pull captured for that site. Curriculum Hub rows say "Not pulled yet."
+- Start here: what the sheet is, how to fill it in (four steps), what the words mean, what the review groups mean, an example row, and a Progress table (rows 33 to 41 in V3) that counts Pages, Picks, Decided, and Remaining per site from the Decision and Pick needed columns. Decided counts a row only when its yellow Decision cell has something in it. V3 does not carry the two paragraphs explaining What we know and Views that the delivered file had; treat V3 as his latest and do not add them back unless he asks.
+- Styling is Anthony's: Arial 12; header fill 1034B3 with white bold text; Decision fill FFF3D6; Keep, Kill, and Consolidate color the cell C6EFCE, FFC7CE, FFE1B8; set rows bold on EDEFF5; members in grey 808080.
 
-The goal is that stakeholders review a manageable set rather than 2,027 dropdowns, with the highest-value pages surfaced first.
+**What was rejected, and why.** Late in the session Anthony asked for an initial round of Keep, Kill, and Consolidate decisions and approved the rules for making them (below). The agent delivered them as a separate review copy with two extra columns, Suggested call and Why, and left the yellow Decision column empty. The Progress table then showed Decided 0 everywhere. Anthony: "That is very confusing. The point of making those changes was to make initial decisions and pass it off to stakeholders to either change or decide (if undecided)." He reverted to V3 and asked for the task to be redone in a new session. The decisions themselves were not rejected.
 
-**Work in Anthony's file, not a rebuild.** He has applied his own styling. He will supply the current .xlsx.
+**The task now.** Put the initial decisions into the yellow Decision column of Anthony's latest file, so stakeholders change a decision or fill in the blanks. Every decision, with its reason, is in `page-decision-data/initial-decisions.csv` (the file and the rules are described below). Rows marked "Undecided" (the 874 Curriculum Hub pages behind the sign-in, 870 of them resources, and the staff-bio set) stay blank. Change only what the task needs and keep his styling, dropdowns, hidden column, and formulas as they are. Before touching the file, list the requirements back to him and get his yes (rule 14).
 
-**Current sheet structure.** One tab per site (Main site 788 rows, NYC 95, Boston 52, Newark 56, Camden 47, Rochester 44, Curriculum Hub 945), plus a "Start here" tab with instructions and a live progress count. Columns: Section, Page, Web address, Page type, Last updated, What the audit found, Decision (dropdown, column G), Notes. Translated pages are excluded; they follow the English page. In Google Sheets the dropdown is a chip; .xlsx cannot carry that format, so do not try to add it.
+Settle these with him first, in one question card. Recommendations follow each, with the reason.
 
-**The data is ready.** On September 2 the code agent read every one of the 2,022 English pages and produced `website-redesign-2026/page-decision-data/page-decision-data.csv`, with a column guide and caveats in `README.md` alongside it. Read the README in full before using the file. Key facts:
+1. Whether the Reason text goes into the Notes column beside each decision. Recommend yes, so a stakeholder can see why without asking; the Notes column is theirs to overwrite.
+2. Set members: fill the set row only, or every member too. Recommend the set row only, because the Start here instructions say one pick on the set row covers the set, and a filled member reads as an exception.
+3. With decisions pre-filled, the Progress table will count them as Decided. Whether that is fine or the table needs a change. Recommend leaving the table and adding one line to Start here saying the Decision column comes pre-filled with initial decisions that stakeholders confirm or change; that is his decision.
+4. The guide deck (below) and the Start here text describe an empty Decision column. Whether to update them once the decisions are in.
+5. How he wants the file back: an .xlsx to re-import into Google Sheets is the working assumption.
 
-- One row per page, keyed by Web address. Merge into the sheet on that column. The sheet has 2,027 rows; five were added by hand and won't match. Leave them as they are.
-- Signals for every page: loads OK / redirects / dead; redirect target; hidden from Google; word count and a content-amount rating; how many other pages link to it; whether it's in the site menu; links to broken pages; nearest near-duplicate and similarity; flagged as likely required (legal or compliance); on the enrollment, donation, or careers path. Mobile speed and page size for the 57 audited pages.
-- What it found: 57 dead pages (56 on the Curriculum Hub, 1 on NYC); 123 near-duplicates, including live leftover clones of key main-site pages; 258 pages with almost no content and nothing linking to them; 25 likely-required pages and 127 on the money path.
-- Caveats that matter for ranking: the 115 main-site people pages cannot be read this way (their bios load by script), so do not judge them on word count. The 931 Curriculum Hub resource pages are sign-in gated; this file can only say which are dead. A Hub owner has to make the rest of those calls.
-- The file has a "What the data suggests" column, filled for 460 rows where the evidence is mechanical (dead, moved, duplicate, or empty and orphaned). **Anthony has said the sheet must not carry machine-made Keep/Kill/Consolidate calls.** Whether and how that column appears in the sheet is his decision. Ask before including it.
+**The decisions file: `page-decision-data/initial-decisions.csv`.** 2,032 rows: the 2,022 pages plus the 10 set rows, in the same order as the sheet. Columns: Tab; Row in V3 (the row number in that tab of the V3 file); Review group; Section; Page; Web address (same as column D; set rows have none); Pick needed (copied from hidden column I: "yes" = needs its own pick, "set" = a bold set row, "in a set" = a grey member); Initial decision (Keep, Kill, Consolidate, or Undecided); Reason (in plain words, written for a stakeholder). Match rows on Tab and Row in V3 and confirm the Web address agrees; if Anthony has re-sorted or edited rows since V3, match on Web address. Member rows carry a decision too, so a reader can see what each page would get, but the set row is what counts. Counts among the 1,536 rows that need a pick: Keep 399, Kill 249, Consolidate 13, Undecided 875.
 
-What the repo audit adds beyond the CSV: `01-audit/writer/03-CONTENT-INVENTORY.md` has quality ratings and page calls for about 25 main-domain pages, already reflected in the sheet's audit notes. Audience priority from kickoff: prospective families and job candidates first, other educators rising, donors secondary, current families not a target.
+**The rules behind the decisions, in the order they were applied.** The first rule that fits a page decides it. Anthony approved the rules and the 50-views cutoff.
 
-**Constraints from the September 1 internal call:**
-- The blog may be driving organic traffic. Treat it as a consolidate candidate, not an automatic cut, until traffic data confirms.
+1. Dead or moved pages: Kill. If the address already redirects somewhere, keep the redirect and drop the page.
+2. Sets. Social media posts captured as pages: Kill. Auto-generated listing pages: Kill (the new site builds its own lists). Main-site school pages: Consolidate into the real page on the regional site. Paid campaign pages: Keep (per the audit: keep for the ad buy, retire old school years after the cycle). Live staff profiles: Undecided (the Our People owner decides; 33 of the 106 are not linked from the Our People page, so confirm they are still on staff).
+3. Curriculum Hub. The 874 pages behind the sign-in (870 curriculum resources and 4 listing pages): Undecided (the Hub owner decides). Four WordPress leftovers (Sample page, Hello world, the Sitecare author page, the Uncategorized category page): Kill. The Hub's own 10 pages (the 7 menu pages, Privacy policy, My account, Registration): Keep.
+4. Live copies of key pages: Consolidate into the original. Homepage 2 into the Homepage; Northstar gma into North star on gma; Uncommon sense faq into the blog's own FAQ page.
+5. Decided by hand, marked "Decided by hand" in the Reason column. Main site: Results 2 2 (Consolidate into Results); Alumni impact contact us (Consolidate into Alumni); Nyc school tours (Consolidate into the NYC site's School tours); Subscribe to uncommon sense (Keep); Sms and Mobile terms and conditions (Keep, they pair); Vote, World autism day, 2425survey guidelines, Standard page (Kill). NYC: Virtual tour crown heights (Keep). Boston: Family council (Consolidate into Family resources); Dr j keith motley (Consolidate into Board of trustees). All five regional sites: Family newsletters (Consolidate into Family resources); Technology and internet use (Keep; Miriam vets any change).
+6. Legal and compliance pages (review group 2): Keep. Miriam vets any change.
+7. Core pages (review group 1): Keep.
+8. Impact blog posts: Keep. The blog moves as one unit until traffic data says otherwise.
+9. Any page with 50 or more views in the 12 months: Keep.
+10. News posts from 2024 or later: Keep. Older News posts: Kill.
+11. Thin pages nothing links to (review group 5): Kill.
+12. Anything left would have been marked "Needs a look." Nothing was left.
+
+**Also delivered in the session.** A companion deck, "Website Content Review Sheet Guide.pptx," eight slides built inside the Uncommon template with pictures of the sheet: what it is, how to fill it in, the eight columns, the seven review groups, the sets, what the sets trim (2,022 to 1,536 picks; 667 if the Hub's 870 resources were also one set, which Anthony ruled out), and tracking progress. Anthony has the file; it is not in the repo. Two short bullet messages to his boss announcing the sheet and the guide were written and delivered in chat.
+
+**Still to do on views.** Curriculum Hub views were never pulled: the computer the session was linked to went offline before that pull. How the other six were pulled: Anthony signs in to Google Analytics in Claude's built-in browser pane on the computer the session is linked to; open the main property's Reports, Engagement, "Pages and screens" report; set the dates; add Hostname as a secondary dimension; add a report filter where Hostname exactly matches the site's hostname (for the Hub, hscurriculum.uncommonschools.org); show 250 rows per page and copy the table page by page. Go back to page 1 of the table before applying a new filter, or it shows "No data." Then add the views into column F of the Curriculum Hub tab by matching the page path. Whether the Hub's traffic lands in the main property, or in a property of its own, was not confirmed; check in GA before pulling.
+
+**Constraints from the September 1 internal call, still in force:**
+- The blog may be driving organic traffic. Treat it as a consolidate candidate, not an automatic cut, until traffic data confirms. (The initial decisions keep every Impact blog post for this reason.)
 - Legal and compliance pages must be vetted by Miriam before removal. Whether the standard is WCAG AA or AAA is an open question with her.
-- Once a first pass exists, the plan is to send it to Spinutech as Uncommon's initial draft for their review and recommendations. That is paused with everything else.
+- Once the initial decisions exist, the plan is to send them to Spinutech as Uncommon's initial draft for their review and recommendations. That is paused with everything else.
+
+**Background on the rework, for reference.** The old sheet listed 2,027 pages in a flat list; Mary Ann Villanueva and Courtney Clayton said it could not go to stakeholders as-is. Anthony's rule for the rework: the agent ranks and orders, people decide. The page-level data behind the ranking is `page-decision-data/page-decision-data.csv` (one row per page, keyed by Web address; column guide and caveats in its `README.md`). Its "What the data suggests" column was left out of the sheet on Anthony's say-so. Audience priority from kickoff: prospective families and job candidates first, other educators rising, donors secondary, current families not a target.
 
 ---
 
@@ -79,7 +106,8 @@ On the user flow maps specifically: Spinutech says four weeks. Anthony says he c
 - `deck/deck_source.md`: source of truth for the audit deck, 17 sections. Read in full; Anthony expects you to know it.
 - `deck/build_deck.py`: deck generator. Needs `template.pptx` and the pptx skill scripts.
 - `deck/HANDOFF.md`: this file.
-- `page-decision-data/`: the September 2 page-level data file and README for the keep/kill/consolidate rework.
+- `page-decision-data/`: the September 2 page-level data file and its README, and `initial-decisions.csv` (the initial Keep, Kill, or Consolidate decisions; see section 2).
+- `references/screenshots/`: 112 screenshots of 17 reference sites, captured September 4 by a code agent for the website reference deck (a separate workstream Anthony runs in other sessions; its README lists the sites and caveats). This file does not track that deck.
 
 People: Anthony Emezu, Creative Director (your contact). Anneliese Tint runs the project. Mary Ann Villanueva, Chief External Officer, decides. Courtney Clayton, Senior Director of Brand and Marketing. Spinutech: Portia Griffin (lead), Brittany (her senior), Jackson (leadership), Meghan (UX strategist), Eric (designer).
 
@@ -93,9 +121,9 @@ Spinutech's schedule as of their September 1 email, subject to the pause: techni
 - Kickoff decisions: aim WCAG AAA case by case; reference site kippnj.org; Success Academy referenced only for its single-flow application; do not look like any competitor; audience priority: prospective families and job candidates (primary), other educators (rising), donors (secondary), current families (not a target).
 - Deck brand rules: Libre Franklin only; blue #1034B3, yellow #FBAE40, panel fill #F2F4FA, borders #C9CED8; sizes locked as above; no em dashes anywhere in deck copy.
 
-**Completed and delivered:** the audit deck v3 (58 pages, August 31); the division-of-labor email to Spinutech (sent August 31); the keep/kill/consolidate spreadsheet (live in Sheets, being reworked per section 2); the page-level data file (September 2, code agent).
+**Completed and delivered:** the audit deck v3 (58 pages, August 31); the division-of-labor email to Spinutech (sent August 31); the page-level data file (September 2, code agent); the reworked keep/kill/consolidate sheet with review groups, sets, and Google Analytics views for six of the seven sites (delivered September 3, last revised September 8; live in Sheets as V3); the sheet guide deck (September 3); two announcement messages for Anthony's boss (in chat).
 
-**Queued after the current task:** aspirational site examples (non-education sites with excellent design, appended to the audit deck); review of Spinutech's sitemap and taxonomy when they produce them; the keep/kill/consolidate final list once stakeholder input and traffic data are in.
+**Queued after the current task:** Curriculum Hub views (section 2); aspirational site examples (non-education sites with excellent design, appended to the audit deck); review of Spinutech's sitemap and taxonomy when they produce them; the keep/kill/consolidate final list once stakeholder input and traffic data are in.
 
 ---
 
@@ -119,6 +147,9 @@ Hard rules. Violating them costs trust immediately.
 14. Before any draft with more than one requirement, list the requirements back to him in a few lines and get a yes. Then write once against that list.
 15. He will tell you bluntly when work is bad. Do not apologize at length. Say what went wrong in one sentence and fix it.
 16. NEVER MAKE ANYTHING UP. Do not invent facts, names, timings, claims, or details Anthony did not state or that are not confirmed in source material. If something is unknown, say so or leave a bracket for him to fill in. This applies to drafts, recommendations, and questions alike.
+17. When he does not follow an explanation, explain it again in different everyday words. Do not drop the idea because it was explained badly; he called that out in his words: "You failing to explain something clearly is not grounds to drop it."
+18. When a session's memory has been squeezed (the app summarizes the earlier conversation to make room), tell him and hand off to a new session through this file. He does not trust work done after that point.
+19. Several questions at once go in the tappable question card, one question per card entry, in plain words. A single question goes in one line of chat.
 
 ### His writing style, captured verbatim
 
@@ -136,3 +167,5 @@ He wrote this himself after rejecting several attempts. Match the pattern: link 
 Two sessions ended badly, August 28 and September 1, the second because Anthony stopped it. The same failures both times: over-explaining what the reader already knew, then over-correcting by stripping content he had asked to keep; inventing details he never supplied; using jargon he had to ask about; writing questions for a paid vendor that read like a quiz, including one already answered in writing; and answering from memory instead of checking the source.
 
 The fixes: hold every stated requirement at once rather than reacting to the last complaint. Never add a fact he did not give. When shortening, remove words, not information. Verify before stating, every time.
+
+The September 3 to 9 session delivered the sheet, the deck, and the boss messages, then went wrong twice. First, the Google Analytics pull: the session was linked to one of Anthony's computers while he was working on another, so the browser pane the agent opened was not the one he was looking at, and the agent took too long to work that out and explain it. Check which computer the session is linked to before asking him to sign in anywhere. Second, the initial decisions: the agent put them in a separate review copy in their own columns, so nothing showed as decided; Anthony wanted them in the sheet's Decision column for stakeholders to change. When he asks for initial decisions, put them where decisions go. The agent also named things in its own jargon ("first-pass calls"); use his words.
