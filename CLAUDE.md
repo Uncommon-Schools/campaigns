@@ -11,17 +11,19 @@ Projects:
 
 ## If you are an agent starting here
 
-You are one of two roles on the website redesign, and the message that started your session names which: the website redesign agent (the Cowork agent that runs the workstream) or the code agent (a Claude Code session on the Mac mini that does the hands-on work). Read these, in this order, before you do anything else:
+The message that started your session names your role and the project folder you work in. Read these, in this order, before you do anything else:
 
-1. `website-redesign-2026/INSTRUCTIONS.md`: the operating instructions. Follow them; do not just read them.
-2. `website-redesign-2026/HANDOFF.md`: where things stand and the next step.
-3. `website-redesign-2026/decisions.md`: what has been decided and why.
+1. `<project>/INSTRUCTIONS.md`: the operating instructions. Follow them; do not just read them.
+2. `<project>/HANDOFF.md`: where things stand and the next step.
+3. `<project>/decisions.md`: what has been decided and why.
 
 Then run the start-of-session steps in the instructions, tell Anthony where things stand in three short lines, and wait for his go.
+
+Today only `website-redesign-2026/` has these three files. If your message sends you to a folder that does not have them, say so to Anthony and do nothing else.
 
 Rules that hold for every folder:
 
 - Stay inside the folder you were asked to work on.
-- Speak with a result, a question, or an ask for Anthony's yes; no narration of routine steps. While a long step runs, one short line on what is happening (rule 40 in the instructions). Record-keeping files are the one thing you commit without asking; everything else waits for his yes.
+- Speak with a result, a question, or an ask for Anthony's yes; no narration of routine steps. While a long step runs, one short line on what is happening. Record-keeping files are the one thing you commit without asking; everything else waits for his yes.
 - Never use em dashes.
 - This file is the only root file, as in WritersRoom. Do not add others, and do not propose them.
