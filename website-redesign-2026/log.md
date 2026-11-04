@@ -1,0 +1,17 @@
+# Website Redesign: Log of approved work
+
+One row per approved item, newest at the bottom. Format: `Date | Item | Status | External ID | Settings | Notes`. Started 2026-11-04 (D-025); earlier approved work is listed from the handoff records.
+
+2026-09-09 | Keep, kill, consolidate sheet with the 661 initial decisions | Delivered to Anthony | "Website Redesign KeepKillConsolidate v2.xlsx" (his file) | Rules in D-010; reasons from `page-decision-data/initial-decisions.csv` | Which version reached Spinutech is not recorded
+2026-10-06 | Copywriter project overview deck, final (8 pages) | Delivered | Google Slides https://docs.google.com/presentation/d/1r5WWbO1qriznMESe6HLp7kbWNPtZhu4vnwAWGIpS7KE/edit | Built in his presentation template; contents in HANDOFF section 2 | Cover line still says "Copywriter onboarding"
+2026-10-26 | Wireframes batch 1, eight pages captured at 100% | Committed | `wireframes/batch-1/` | Headless browser on the Mac mini, public prototype wVE9tgqrt8bisnFXd7SHdJ, desktop 1440 wide, mobile 400, scrolled and stitched | Compiled overview rejected first (D-023)
+2026-11-02 | Wireframes batch 2, twelve pages captured at 100% | Committed | `wireframes/batch-2/` | Same method as batch 1 | One faint seam inside the School Profile desktop map placeholder
+2026-11-02 | Figma file for the design phase | Created on Anthony's yes | https://www.figma.com/design/1Jq9rEkeqsJ3YolJZBM16n | Design file in his drafts, page "Homepage desktop" | Created as a write test, kept as the working file
+2026-11-02 | Batch 1 homepage desktop wireframe rebuilt in Figma | Accepted ("great work") | Frame "Homepage / Desktop 1440 ORIGINAL" in the file above | 1440 by 10852, built from `wireframes/batch-1/01-homepage.png`; reusable pieces in the "Components" section; official logo pasted in by Anthony | Spinutech placeholder copy reproduced as is
+2026-11-02 | Design task 1: pill buttons matched to the Search button | Done on his yes | Working canvas in the file above | Label 18 Semi Bold, padding 18.5 and 32, 61 tall; white ones keep the grey outline | Footer excluded
+2026-11-02 | Design task 2: mission statement photo grid | Done on his "proceed" | Working canvas | Tiles 396 by 212, radius 34, brick offset, window cleared around the centered statement | Photos still placeholders
+2026-11-03 | Three sections on ALT 2 retrofitted to the early design direction | Done | Canvas "Homepage / Desktop 1440 ALT 2"; source prototype 7sZy17r0e4pIvqSAMdfK3C node 10230-7400 | Colours navy #110B35, blue #1035B4, tint #F4F6FE, yellow #FFC215; section heights kept | Headings in Inter as a stand-in for Knockout
+2026-11-03 | Big Dreams section on ALT 2 matched to Ver B | Done | Same canvas; source node 10253-19274 | Tiles blue, navy, periwinkle #7087D2; photos from the capture | Same Knockout stand-in
+2026-11-03 | Principal photo placed in the ALT 2 stories video card | Done | Same canvas | Cut from the Ver B capture, top 480 rows, 837 wide | Screen resolution; original photo would be sharper
+2026-11-03 | Why Families section on ALT 2 rebuilt to Anthony's screenshot | Done, corrected once | Same canvas | Navy #02061B, blue #3961C6, yellow #FFB503; next slides layered behind the front card | Third slide has no photo; two photos at screen resolution
+2026-11-04 | 23 presentation notes rewritten and 9 added beside ALT 2 | Accepted ("great work") | Page-level text beside the ALT 2 canvas | Same style as his notes, 18 px, arrows cloned from his | Nothing in the design changed

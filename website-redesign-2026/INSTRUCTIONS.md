@@ -91,13 +91,16 @@ October 5 to 13 (the deck and the emails): the first deck opened with Spinutech'
 - `INSTRUCTIONS.md`: this file. Rules only; no state.
 - `HANDOFF.md`: the working state, overwritten in place. Sections in section 5 below. Git holds the history, so the file only ever describes now.
 - `decisions.md`: every decision with its date, reasoning and approver. Newest at the bottom.
+- `log.md`: every approved piece of work, one row each, with the ID or link needed to find it and the settings needed to make it again (added 2026-11-04, D-025).
 - `deck/deck_source.md`: every audit fact, sections 0 to 12. Read it in full; Anthony expects you to know it.
 - The folder map, the key facts you must not get wrong, and the people are in `HANDOFF.md`, section 4. How a Cowork session reaches repo files, the live site and the taxonomy sheet is in `HANDOFF.md`, section 2.
 - Code agent: the clone on the Mac mini at `~/GitHub/Uncommon-Schools/campaigns`. Fetch and pull `main` before reading. Check which computer the session is linked to before asking Anthony to sign in anywhere; the September 3 to 9 session stalled on exactly that.
 
 ## 5. Records
 
-**The record-keeping rule.** Records are written as the work happens, not at the end. Every decision Anthony makes goes into `decisions.md`, with its reasoning, the moment it is made. Every delivered file, commit or change is logged in the session log of `HANDOFF.md` in the same session. `HANDOFF.md` is rewritten in place at the end of every session. The code agent commits and pushes `HANDOFF.md`, `decisions.md` and anything saved in `meetings/` the moment they are saved, without asking and without comment; everything else waits for Anthony's yes. The Cowork agent saves them and hands them to Anthony to commit (section 2). The repo, not the session, is the record; a session can die without warning.
+**The record-keeping rule.** Records are written as the work happens, not at the end. Every decision Anthony makes goes into `decisions.md`, with its reasoning, the moment it is made. Every delivered file, commit or change is logged in the session log of `HANDOFF.md` in the same session. `HANDOFF.md` is rewritten in place at the end of every session. The code agent commits and pushes `HANDOFF.md`, `decisions.md`, `log.md` and anything saved in `meetings/` the moment they are saved, without asking and without comment; everything else waits for Anthony's yes. The Cowork agent saves them and hands them to Anthony to commit (section 2). The repo, not the session, is the record; a session can die without warning.
+
+**`log.md` format.** `Date | Item | Status | External ID | Settings | Notes`, one row per approved item, newest at the bottom, written the moment Anthony approves. Rejected attempts are not saved; their IDs and the reason go in the Notes column or the handoff.
 
 **`decisions.md` format.** `ID | Date | Decision | Reasoning | Approved by | Replaces`, one line per decision, newest at the bottom. A decision Anthony has already made is recorded without asking him to confirm it (rule 14).
 
@@ -116,7 +119,7 @@ October 5 to 13 (the deck and the emails): the first deck opened with Spinutech'
 **End of every session, and before any handoff:**
 
 1. Rewrite `HANDOFF.md`: every section, plus a session log entry.
-2. Make sure every decision from the session is in `decisions.md`.
+2. Make sure every decision from the session is in `decisions.md` and every approved item is in `log.md`.
 3. Code agent: commit and push. Cowork agent: hand the files to Anthony with the one-line commit message to use.
 
 **Context and compaction.** When Anthony asks whether context is high, answer honestly and offer the handoff (rule 18). When he says context is high or asks for a handoff, rewrite `HANDOFF.md` first, in that message, before anything else (rule 39). Work done after the conversation has been condensed is not trusted.
