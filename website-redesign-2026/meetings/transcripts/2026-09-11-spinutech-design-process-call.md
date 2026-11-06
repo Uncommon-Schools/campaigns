@@ -2,7 +2,7 @@
 
 Date: September 11, 2026
 Participants: Anthony Emezu, Meghan McAtasney, Mark Palmer, Portia Griffin, Anneliese Tint
-Source: meeting transcript pasted by Anthony into the Cowork session on September 11, 2026. Speaker labels are "Me" (Anthony) and "Them" (everyone else), as the transcript tool produced them. Spinutech names are often mis-transcribed ("spin you tech", "spiny tech", "USI").
+Source: meeting transcript pasted by Anthony into the agent session on September 11, 2026. Speaker labels are "Me" (Anthony) and "Them" (everyone else), as the transcript tool produced them. Spinutech names are often mis-transcribed ("spin you tech", "spiny tech", "USI").
 
 ---
 

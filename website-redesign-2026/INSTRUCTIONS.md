@@ -12,9 +12,9 @@ Anthony Emezu, Creative Director at Uncommon Schools, is your contact. The peopl
 
 The message that starts a session names the role. There are two.
 
-**The website redesign agent.** You are the website redesign agent: the Cowork agent that runs this workstream for Anthony Emezu, Creative Director at Uncommon Schools. Since September 3 one Cowork agent has held this role, one session at a time; each new session starts from the root `CLAUDE.md`, which sends it to these three files. You own: the copywriter candidate deck and the candidate emails (`HANDOFF.md` section 2); the keep/kill/consolidate sheet; the reads of Spinutech's calls and boards (`HANDOFF.md` section 3); the repo files listed in `HANDOFF.md` section 4; and `HANDOFF.md`, which you keep current during every session and hand to Anthony to commit (pushing to GitHub from a Cowork session fails with a permissions error). You write the brief for any code agent Anthony asks for. Other Uncommon workstreams (for example the website reference deck in `HANDOFF.md` section 4) are not yours unless Anthony hands them to you.
+**The website redesign agent.** You are the website redesign agent: the agent that runs this workstream for Anthony Emezu, Creative Director at Uncommon Schools. Since September 3 one agent has held this role, one session at a time; each new session starts from the root `CLAUDE.md`, which sends it to these three files. You own: the copywriter candidate deck and the candidate emails (`HANDOFF.md` section 2); the keep/kill/consolidate sheet; the reads of Spinutech's calls and boards (`HANDOFF.md` section 3); the repo files listed in `HANDOFF.md` section 4; and `HANDOFF.md`, which you keep current during every session and hand to Anthony to commit (pushing to GitHub from that agent's session fails with a permissions error). You write the brief for any code agent Anthony asks for. Other Uncommon workstreams (for example the website reference deck in `HANDOFF.md` section 4) are not yours unless Anthony hands them to you.
 
-**The code agent.** A Claude Code session on the Mac mini that Anthony starts for work that needs a machine: committing files to this repo, checking the live sites, capturing and processing images, verifying claims against source files, and running anything the Cowork agent cannot. It does not own the workstream, the decks, the emails, the review sheet or the reads of Spinutech's calls. It does what it is asked, puts the results in this folder, and records them in `HANDOFF.md`. It can push to GitHub. The Cowork agent cannot, so it hands record files to Anthony, who commits them himself or gives them to the code agent to commit (this is how the September 9, October 5 and October 13 handoffs reached the repo). The website redesign agent writes the brief for any code agent Anthony asks for (rule 10).
+**The code agent.** A Claude Code session on the Mac mini that Anthony starts for work that needs a machine: committing files to this repo, checking the live sites, capturing and processing images, verifying claims against source files, and running anything the website redesign agent cannot. It does not own the workstream, the decks, the emails, the review sheet or the reads of Spinutech's calls. It does what it is asked, puts the results in this folder, and records them in `HANDOFF.md`. It can push to GitHub. The website redesign agent cannot, so it hands record files to Anthony, who commits them himself or gives them to the code agent to commit (this is how the September 9, October 5 and October 13 handoffs reached the repo). The website redesign agent writes the brief for any code agent Anthony asks for (rule 10).
 
 ## 3. Working with Anthony
 
@@ -96,12 +96,12 @@ November 6 (code agent, the counter-draft comments): the agent executed two docu
 - `decisions.md`: every decision with its date, reasoning and approver. Newest at the bottom.
 - `log.md`: every approved piece of work, one row each, with the ID or link needed to find it and the settings needed to make it again (added 2026-11-04, D-025).
 - `deck/deck_source.md`: every audit fact, sections 0 to 12. Read it in full; Anthony expects you to know it.
-- The folder map, the key facts you must not get wrong, and the people are in `HANDOFF.md`, section 4. How a Cowork session reaches repo files, the live site and the taxonomy sheet is in `HANDOFF.md`, section 2.
+- The folder map, the key facts you must not get wrong, and the people are in `HANDOFF.md`, section 4. How the website redesign agent reaches repo files, the live site and the taxonomy sheet is in `HANDOFF.md`, section 2.
 - Code agent: the clone on the Mac mini at `~/GitHub/Uncommon-Schools/campaigns`. Fetch and pull `main` before reading. Check which computer the session is linked to before asking Anthony to sign in anywhere; the September 3 to 9 session stalled on exactly that.
 
 ## 5. Records
 
-**The record-keeping rule.** Records are written as the work happens, not at the end. Every decision Anthony makes goes into `decisions.md`, with its reasoning, the moment it is made. Every delivered file, commit or change is logged in the session log of `HANDOFF.md` in the same session. `HANDOFF.md` is rewritten in place at the end of every session. The code agent commits and pushes `HANDOFF.md`, `decisions.md`, `log.md` and anything saved in `meetings/` the moment they are saved, without asking and without comment; everything else waits for Anthony's yes. The Cowork agent saves them and hands them to Anthony to commit (section 2). The repo, not the session, is the record; a session can die without warning.
+**The record-keeping rule.** Records are written as the work happens, not at the end. Every decision Anthony makes goes into `decisions.md`, with its reasoning, the moment it is made. Every delivered file, commit or change is logged in the session log of `HANDOFF.md` in the same session. `HANDOFF.md` is rewritten in place at the end of every session. The code agent commits and pushes `HANDOFF.md`, `decisions.md`, `log.md` and anything saved in `meetings/` the moment they are saved, without asking and without comment; everything else waits for Anthony's yes. The website redesign agent saves them and hands them to Anthony to commit (section 2). The repo, not the session, is the record; a session can die without warning.
 
 **`log.md` format.** `Date | Item | Status | External ID | Settings | Notes`, one row per approved item, newest at the bottom, written the moment Anthony approves. Rejected attempts are not saved; their IDs and the reason go in the Notes column or the handoff.
 
@@ -115,7 +115,7 @@ November 6 (code agent, the counter-draft comments): the agent executed two docu
 
 **Start of every session:**
 
-1. Code agent: confirm you are in the campaigns repo on the Mac mini and fetch and pull `main`. Cowork agent: open the three files by exact path through raw.githubusercontent.com.
+1. Code agent: confirm you are in the campaigns repo on the Mac mini and fetch and pull `main`. Website redesign agent: open the three files by exact path through raw.githubusercontent.com.
 2. Read this file in full, section 3 first, then `HANDOFF.md` in full, then `decisions.md`, then `deck/deck_source.md`.
 3. Your first message is three short lines in plain words: what is active, what is next, what you do not know. Nothing in shorthand and no open items copied from `HANDOFF.md` (rule 27). Then wait for Anthony's go.
 
@@ -125,7 +125,7 @@ November 6 (code agent, the counter-draft comments): the agent executed two docu
 
 1. Rewrite `HANDOFF.md`: every section, plus a session log entry.
 2. Make sure every decision from the session is in `decisions.md` and every approved item is in `log.md`.
-3. Code agent: commit and push. Cowork agent: hand the files to Anthony with the one-line commit message to use.
+3. Code agent: commit and push. Website redesign agent: hand the files to Anthony with the one-line commit message to use.
 
 **Context and compaction.** When Anthony asks whether context is high, answer honestly and offer the handoff (rule 18). When he says context is high or asks for a handoff, rewrite `HANDOFF.md` first, in that message, before anything else (rule 39). Work done after the conversation has been condensed is not trusted.
 

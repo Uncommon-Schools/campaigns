@@ -2,7 +2,7 @@
 
 Date: October 5, 2026
 Participants: Anthony Emezu, Meghan McAtasney, Portia Griffin, Julie (Spinutech SEO), Anneliese Tint, Courtney Clayton, Jacob R., Mary Ann Villanueva
-Source: meeting transcript pasted by Anthony into the Cowork session on October 5, 2026, while the call was still running. It ends mid-call, during the Our People discussion. The FAQ library and CMS (custom post types, imported content) items on Meghan's agenda had not been reached. Speaker labels are "Me" (Anthony) and "Them" (everyone else). Spinutech is often transcribed as "USI" or "SpinnyTech"; Meghan as "Megan".
+Source: meeting transcript pasted by Anthony into the agent session on October 5, 2026, while the call was still running. It ends mid-call, during the Our People discussion. The FAQ library and CMS (custom post types, imported content) items on Meghan's agenda had not been reached. Speaker labels are "Me" (Anthony) and "Them" (everyone else). Spinutech is often transcribed as "USI" or "SpinnyTech"; Meghan as "Megan".
 
 Companion file: `../2026-10-05-spinutech-content-mapping-board.jpg` (the Mural board discussed on this call).
 
