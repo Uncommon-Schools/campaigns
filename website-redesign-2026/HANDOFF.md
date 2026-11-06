@@ -85,22 +85,8 @@ Earlier entries (September 9 through November 5) are in git history; the last lo
 
 Done: the 3,000-word cap on this file (D-035); item 5, section 4 as a milestone table (D-036), reply posted; item 6, Net 30 (D-038), reply posted, comments kept; rule 41 (preserve comments) and the shorter reply shape (D-037). Anthony declined any further rules: the day's failures were already covered by rules 2, 14, 22, 33 and 36, so adding rule 42 was dropped.
 
-Failings, in order, for the next agent to avoid:
-
-1. Long explanations and bloated replies, against rule 2 and rule 36, until Anthony trimmed a reply himself and posted it.
-2. Item 5 took four messages before he saw the actual proposed text, because the first messages described the change instead of showing it.
-3. Item 8 took five rounds: a column shown alone, then an abbreviated table, then one row, then reasoning without the table, then finally the full table. Each round calibrated to his last correction instead of to what he needed to approve, the failure already recorded under the item 1 lesson.
-4. The new column's squeeze on the Pages column was not seen or solved; Anthony widened the table himself. A table in this chat renders badly on his phone, so "show exactly as it will appear" means a picture of the page, not a markdown table.
-5. Direct questions were answered with tangents (suggestion mode in Google Docs; a new rule) and once not answered at all, while he was asking only about the table.
-6. Skipped item 8 and presented item 7, out of document order.
-7. A records push was attempted while the session was in auto mode and refused; he had to switch the mode off.
+Failings, for the next agent to avoid: bloated explanations and replies (rules 2 and 36), until Anthony trimmed one himself; item 5 described for four messages before the text was shown; item 8 shown five ways (column alone, abbreviated table, one row, reasoning only) before the full table; the new column's squeeze on the Pages column not seen, Anthony widened the table himself; direct questions answered with tangents or not at all; item 7 presented ahead of item 8, out of document order; a records push attempted in auto mode and refused.
 
 ### November 6, 2026, night (code agent; Anthony ended the session within minutes: "there are rules in place and you basically ignored them all")
 
-No change to any document. Session: orientation read (all five record files, the deck source, the counter-draft with comments), then three messages, all rejected. Failings:
-
-1. The work was never named as he knows it, "Attachment A. Batch Schedule"; the agent said "the Direction column" and "the batch schedule", and he said the task was not brought up once.
-2. The three-line opening did not say what was next in words he could act on; the second attempt listed dates and steps he could not follow.
-3. Asked "Will this be a problem?", the agent answered about the schedule dates; he said nothing was clear and it was not where the last session left off.
-4. After he said "We need to restart", the agent began the Drive copy and picture for item 8 without his go, from this file's own instruction. He called it duplicate documents and a picture for no reason. The copy was refused by auto mode, so nothing was created.
-5. The feedback on communication was not addressed before acting.
+No change to any document. Three messages, all rejected. Failings: the work was never named as he knows it, "Attachment A. Batch Schedule", so he said the task was not brought up once; the opening did not say what was next in words he could act on; "Will this be a problem?" was answered with schedule dates he could not follow; after "We need to restart" the agent began the Drive copy and picture without his go (refused by auto mode, nothing created); the communication feedback was not addressed before acting.
