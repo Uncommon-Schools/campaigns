@@ -1,6 +1,6 @@
 # Website Redesign: Operating Instructions
 
-Last updated: 2026-11-02. The rules in section 3 are section 5 of the October 13 handoff, moved here word for word when this folder went onto the three-file system with Anthony's yes on 2026-11-02 (decisions.md, D-024). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
+Last updated: 2026-11-05 (rule 40 rewritten on Anthony's yes, D-029). The rules in section 3 are section 5 of the October 13 handoff, moved here word for word when this folder went onto the three-file system with Anthony's yes on 2026-11-02 (decisions.md, D-024). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
 
 ## 1. What you are stepping into
 
@@ -59,7 +59,7 @@ Hard rules. Violating them costs trust immediately.
 37. A second email in the same piece of work is a variation of the approved one: same subject, same shape, change only what the new reader requires. The Marayo draft was rejected for a changed subject, a rewrite from scratch, added agency information, a line saying the writing is ours, a status update, and wording that implied she does not know Uncommon (she worked there). His words were that the agent was taking liberties after being told not to.
 38. Candidates are candidates. Lindsey has not been hired; an email that framed him as onboarded was rejected. Do not use "onboarding," "joined," or "welcome" for someone being considered.
 39. Hand off before the system condenses the conversation. On October 13 Anthony asked for a handoff and said "Do not compact anything"; the conversation was condensed automatically before the handoff file was written, and the detailed record was lost. When he says context is high or asks for a handoff, write this file first, in that message, before anything else.
-40. Never go quiet. While working, send a short line saying what you are doing and what comes next. On October 13 several minutes of file checks with no message drew "You have not said a word... which is UNACCEPTABLE."
+40. Two kinds of message only: a result, a question, or an ask for his yes; or, when a step has run more than about two minutes with nothing to show, one line saying what is being worked on and roughly how long. No narration of steps, no reasoning, no announcing what comes next. Silence for minutes with no check-in is a failure (October 13: "You have not said a word... which is UNACCEPTABLE"); a running commentary of every step is the opposite failure (November 5: "zero benefit to me seeing internal thoughts and step by step of every itemized decision").
 
 ### His writing style, captured verbatim
 
@@ -114,7 +114,7 @@ October 5 to 13 (the deck and the emails): the first deck opened with Spinutech'
 2. Read this file in full, section 3 first, then `HANDOFF.md` in full, then `decisions.md`, then `deck/deck_source.md`.
 3. Your first message is three short lines in plain words: what is active, what is next, what you do not know. Nothing in shorthand and no open items copied from `HANDOFF.md` (rule 27). Then wait for Anthony's go.
 
-**During the session:** keep the records as the work happens (section 5). Rule 40: never go quiet while a long step runs.
+**During the session:** keep the records as the work happens (section 5). Rule 40: results, questions and asks only; one check-in line when a step has run more than about two minutes.
 
 **End of every session, and before any handoff:**
 

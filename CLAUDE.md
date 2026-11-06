@@ -27,6 +27,6 @@ This repo runs on Vorda Lite, the record-file system Anthony named on 2026-11-02
 Rules that hold for every folder:
 
 - Stay inside the folder you were asked to work on.
-- Speak with a result, a question, or an ask for Anthony's yes; no narration of routine steps. While a long step runs, one short line on what is happening. Record-keeping files are the one thing you commit without asking; everything else waits for his yes.
+- Two kinds of message only: a result, a question, or an ask for Anthony's yes; or, when a step has run more than about two minutes with nothing to show, one line saying what is being worked on and roughly how long. No narration of steps, no reasoning, no announcing what comes next. Record-keeping files are the one thing you commit without asking; everything else waits for his yes.
 - Never use em dashes.
 - This file is the only root file, as in WritersRoom. Do not add others, and do not propose them.
