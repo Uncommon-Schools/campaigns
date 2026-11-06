@@ -1,6 +1,6 @@
 # Website Redesign: Operating Instructions
 
-Last updated: 2026-11-05 (rule 40 rewritten on Anthony's yes, D-029). The rules in section 3 are section 5 of the October 13 handoff, moved here word for word when this folder went onto the three-file system with Anthony's yes on 2026-11-02 (decisions.md, D-024). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
+Last updated: 2026-11-06 (3,000-word cap on `HANDOFF.md` added to sections 4 and 5 on Anthony's yes, D-035). The rules in section 3 are section 5 of the October 13 handoff, moved here word for word when this folder went onto the three-file system with Anthony's yes on 2026-11-02 (decisions.md, D-024). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
 
 ## 1. What you are stepping into
 
@@ -89,7 +89,7 @@ October 5 to 13 (the deck and the emails): the first deck opened with Spinutech'
 
 - `CLAUDE.md` at the root of the campaigns repo: sends every agent here.
 - `INSTRUCTIONS.md`: this file. Rules only; no state.
-- `HANDOFF.md`: the working state, overwritten in place. Sections in section 5 below. Git holds the history, so the file only ever describes now.
+- `HANDOFF.md`: the working state, overwritten in place. Sections in section 5 below. Git holds the history, so the file only ever describes now. Capped at 3,000 words (section 5).
 - `decisions.md`: every decision with its date, reasoning and approver. Newest at the bottom.
 - `log.md`: every approved piece of work, one row each, with the ID or link needed to find it and the settings needed to make it again (added 2026-11-04, D-025).
 - `deck/deck_source.md`: every audit fact, sections 0 to 12. Read it in full; Anthony expects you to know it.
@@ -105,6 +105,8 @@ October 5 to 13 (the deck and the emails): the first deck opened with Spinutech'
 **`decisions.md` format.** `ID | Date | Decision | Reasoning | Approved by | Replaces`, one line per decision, newest at the bottom. A decision Anthony has already made is recorded without asking him to confirm it (rule 14).
 
 **`HANDOFF.md` sections, in this order.** A "Last updated" line (date, which agent, and what the state is current as of); a one-line-each summary of where things stand; 1. Where things stand; 2. Current task; 3. What Spinutech has told us; 4. Repo and project reference, including the key facts you must not get wrong and the people; 5. Session log, dated entries, newest at the bottom. Short, current, and enough for a fresh agent to start working within minutes of reading it.
+
+**The length cap.** `HANDOFF.md` is never longer than 3,000 words (D-035, 2026-11-06; it had reached 14,600 by growing every session instead of being replaced). Count the words at every session end, when the file is rewritten anyway; anything over the cap is cut, not kept. What leaves the file goes where it belongs: a decision to `decisions.md`, a delivered item to `log.md`, everything else to git history. The file holds no narrative of how past work went wrong; a lesson that matters becomes a rule in section 3. The session log keeps the last two sessions. If the current task needs more than about 900 words, move its detail into `decisions.md` or `log.md`; do not raise the cap.
 
 ## 6. Session protocol
 
