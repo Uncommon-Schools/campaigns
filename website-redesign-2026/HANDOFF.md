@@ -52,7 +52,7 @@ Their process (September 11 call): sitemap and taxonomy; 10 templates (Main Home
 
 October 5 workshop facts still in use: about 70 main-site content pages plus 40 alumni profiles and about 70 pages per region, under 500 in all, so content population stays with Spinutech (D-015), who provide the content inventory sheet, copy doc templates, SEO and AEO guidance and some FAQs; College Grads and Dean's List combine into "Alumni College Success" (D-014); Apply Now or Enroll Now is Hadley's call (D-016); For Educators sits under a Resources menu (D-017); regional URLs copy the NYC structure, pending Mary Ann (D-018); bios shown in place rather than as pages is Mary Ann's wish, and Spinutech owes a recommendation.
 
-The transcripts (September 11, October 5, October 27, November 2) are in `meetings/transcripts/`; the content mapping board image is in `meetings/`.
+Transcripts are in `meetings/transcripts/`; the content mapping board image in `meetings/`.
 
 ---
 
@@ -73,7 +73,7 @@ Links not in the repo: Spinutech's older working taxonomy sheet https://docs.goo
 - Headline audit findings (August 26): entry popups on all regionals fail keyboard access; enroll pages weigh 20 to 60MB; no cookie consent anywhere; Camden has no GA4; Enroll clicks fire no conversion event on 5 of 6 sites; 58 paid campaign landing pages indexed; 123 near-duplicate pages; 258 thin pages nothing links to; 57 dead pages; meta descriptions missing on nearly every page. The llms.txt finding has been gone since October.
 - Kickoff decisions: WCAG AAA case by case; reference site kippnj.org; Success Academy only for its single-flow application; look like no competitor; audience priority prospective families and job candidates, then other educators, then donors; current families not a target (D-001 to D-003).
 - Counts in play: 327 In-Scope Pages per the content inventory dashboard (main 71, NYC 67, Newark 55, Rochester 46, Boston 41, Camden 47), with 41 alumni profiles and 57 news posts carried over; the design canvas carries conflicting figures (52 vs 53 schools, 20,000 vs 21,000+ students), flagged in its notes.
-- Deck brand rules: Libre Franklin only; blue #1034B3, yellow #FBAE40, panel fill #F2F4FA, borders #C9CED8; sizes locked; no em dashes. Colours in use on the design canvas: navy #110B35 and #02061B, blue #1035B4 and #3961C6, yellow #FFC215 and #FFB503, tint #F4F6FE, periwinkle #7087D2.
+- Deck brand rules: Libre Franklin only; blue #1034B3, yellow #FBAE40, panel fill #F2F4FA, borders #C9CED8; sizes locked; no em dashes. Design canvas colours are in `log.md` (November 3 rows).
 
 ---
 
