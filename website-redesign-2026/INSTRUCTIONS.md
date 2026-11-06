@@ -1,6 +1,6 @@
 # Website Redesign: Operating Instructions
 
-Last updated: 2026-11-06 (rule 41 on preserving Google Docs comments; rule 36 reply shape cut to answer plus change, D-037; the 3,000-word cap on `HANDOFF.md` in sections 4 and 5, D-035). The rules in section 3 are section 5 of the October 13 handoff, moved here word for word when this folder went onto the three-file system with Anthony's yes on 2026-11-02 (decisions.md, D-024). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
+Last updated: 2026-11-06, night (the opening message written by the outgoing agent and sent word for word by the next one, sections 5 and 6, D-040; rule 41 on preserving Google Docs comments; rule 36 reply shape cut to answer plus change, D-037; the 3,000-word cap on `HANDOFF.md` in sections 4 and 5, D-035). The rules in section 3 are section 5 of the October 13 handoff, moved here word for word when this folder went onto the three-file system with Anthony's yes on 2026-11-02 (decisions.md, D-024). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
 
 ## 1. What you are stepping into
 
@@ -107,7 +107,7 @@ November 6 (code agent, the counter-draft comments): the agent executed two docu
 
 **`decisions.md` format.** `ID | Date | Decision | Reasoning | Approved by | Replaces`, one line per decision, newest at the bottom. A decision Anthony has already made is recorded without asking him to confirm it (rule 14).
 
-**`HANDOFF.md` sections, in this order.** A "Last updated" line (date, which agent, and what the state is current as of); a one-line-each summary of where things stand; 1. Where things stand; 2. Current task; 3. What Spinutech has told us; 4. Repo and project reference, including the key facts you must not get wrong and the people; 5. Session log, dated entries, newest at the bottom. Short, current, and enough for a fresh agent to start working within minutes of reading it.
+**`HANDOFF.md` sections, in this order.** "Opening message for the next agent": the next session's first message to Anthony, written by the outgoing agent at session end, word for word, in Anthony's names for things (the document headings and people's names as he uses them, never the agent's labels such as "item 8"), at most six lines, ending with what he is asked to say go to. Then a "Last updated" line (date, which agent, and what the state is current as of); a one-line-each summary of where things stand; 1. Where things stand; 2. Current task; 3. What Spinutech has told us; 4. Repo and project reference, including the key facts you must not get wrong and the people; 5. Session log, dated entries, newest at the bottom. Short, current, and enough for a fresh agent to start working within minutes of reading it.
 
 **The length cap.** `HANDOFF.md` is never longer than 3,000 words (D-035, 2026-11-06; it had reached 14,600 by growing every session instead of being replaced). Count the words at every session end, when the file is rewritten anyway; anything over the cap is cut, not kept. What leaves the file goes where it belongs: a decision to `decisions.md`, a delivered item to `log.md`, everything else to git history. The file holds no narrative of how past work went wrong; a lesson that matters becomes a rule in section 3. The session log keeps the last two sessions. If the current task needs more than about 900 words, move its detail into `decisions.md` or `log.md`; do not raise the cap.
 
@@ -117,13 +117,13 @@ November 6 (code agent, the counter-draft comments): the agent executed two docu
 
 1. Code agent: confirm you are in the campaigns repo on the Mac mini and fetch and pull `main`. Website redesign agent: open the three files by exact path through raw.githubusercontent.com.
 2. Read this file in full, section 3 first, then `HANDOFF.md` in full, then `decisions.md`, then `deck/deck_source.md`.
-3. Your first message is three short lines in plain words: what is active, what is next, what you do not know. Nothing in shorthand and no open items copied from `HANDOFF.md` (rule 27). Then wait for Anthony's go.
+3. Your first message is the "Opening message for the next agent" block at the top of `HANDOFF.md`, sent word for word, nothing added. If the block is missing or describes a state the files contradict, say so in one line and wait. Then wait for Anthony's go and take no action of any kind before it. (D-040: three agents in a row wrote their own opening and lost Anthony at the first step; the opening is no longer written at the start of a session.)
 
 **During the session:** keep the records as the work happens (section 5). Rule 40: results, questions and asks only; one check-in line when a step has run more than about two minutes.
 
 **End of every session, and before any handoff:**
 
-1. Rewrite `HANDOFF.md`: every section, plus a session log entry.
+1. Rewrite `HANDOFF.md`: every section, plus a session log entry, and the "Opening message for the next agent" block at the top, written in Anthony's names for things.
 2. Make sure every decision from the session is in `decisions.md` and every approved item is in `log.md`.
 3. Code agent: commit and push. Website redesign agent: hand the files to Anthony with the one-line commit message to use.
 

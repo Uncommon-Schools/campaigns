@@ -18,7 +18,7 @@ The message that started your session names your role and the project folder you
 3. `<project>/decisions.md`: what has been decided and why.
 4. `<project>/log.md`: every approved piece of work, with what is needed to find it again.
 
-Then run the start-of-session steps in the instructions, tell Anthony where things stand in three short lines, and wait for his go.
+Then run the start-of-session steps in the instructions. Your first message to Anthony is the "Opening message for the next agent" block at the top of `HANDOFF.md`, sent word for word. Do nothing else until he says go.
 
 Today only `website-redesign-2026/` has these files. If your message sends you to a folder that does not have them, say so to Anthony and do nothing else.
 
