@@ -48,6 +48,26 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 8. Attachment A, where the 5.2 Direction period sits. Open; next. Her comment is pinned to the word "Batch" in the table header. Anthony widened the table into the page margins to make room: it is now 581.25 pt wide (page 612), columns Batch 38.25, Pages 283.5, Written 54.75, Round 1 comments 54.75, Revised 57, Round 2 / Confirm 55.5, Final 37.5. The exact proposal, shown to him in full and not yet approved: (a) a new column "Direction" between "Pages" and "Written", 55 pt, taken from Pages (Pages becomes 228.5), other widths unchanged; (b) its cells, 10 pt like the rest: Batch 1 "Nov 5 to 6", 2 "Nov 12 to 13", 3 "Nov 19 to 20", 4 "Nov 23 to 24", 5 "Dec 3 to 4", 6 "Dec 16 to 17" (each is the two business days before the batch's writing week; Batch 4 steps back past the Thanksgiving half day; Batch 6 goes before the closure so January keeps its eight writing days); (c) this sentence added to the end of the note above the table: "Direction: Consultant's proposed Directions for a Batch are due by the start of its Direction window, and Client confirms them within it (Section 5.2)."; (d) nothing else changes. Anthony wants to see it exactly as it will appear before saying yes. A Drive copy of the document and an exported picture of the page are rejected (D-039); how he wants to be shown the table is not recorded, so ask in one line before preparing anything. Reply to paste after his yes: "It sits in the two business days before each batch is written. I have added a Direction column to the batch schedule with those dates." Caveat raised, not decided: Batch 1's window and the kickoff are already past and the SOW is unsigned; every date re-bases as a block once a signing date exists.
 9. Attachment B, executive review. Open; this one changes the structure. She wants the executive team's review inside Uncommon's internal schedule, not in the contract. That removes Attachment B and the executive wording from 5.1, 5.4, 5.6, 4.1 and 3.1. Recommendation: keep a second round for the same 26 anchor pages (Batches 1 and 2) without naming who reads it, so the contract keeps two rounds where the stakes are and one everywhere else; the executive review then happens inside Uncommon's comment windows, so the Round 1 window for those pages may need ten business days instead of five. This conflicts with Anthony's original reason for the executive round (its feedback overrides everyone else's and needs its own slot), so it is his call. Her comment is pinned to the whole of Attachment B; removing it orphans the comment, so he replies first.
 
+**New task, November 8 (Anthony's brief, verbatim, so no session has to retype it).** Status at the time of writing: Mary Ann's comments are all answered (items 8 and 9 done November 6 to 8, D-041 and D-042; item 7 waits on Miriam); Anthony's goals document done the same day. The transcript of his call with Lindsey has not yet been received; if this session dies, ask Anthony for it.
+
+> since we have just done a big restructuring on the counter sow, i feel like this document should be updated to reflect the changes, especially with how feedback is structured in addition to how each page will be framed in the document.
+>
+> This is connected to the work that we've done in the sow.
+> This update is a result of items that we've added to the document.
+> https://docs.google.com/document/d/10GsXJ7YMgGbHqSIZFCrV-gdEO37bx0KrfeHQpQUpP7I/edit?tab=t.0
+> If necessary, review the document again for context and do deep analysis on ways to improve the copywriter content population document.
+> It's important that you think this through and make well thought out recommendations.
+>
+> I will provide you a transcript from a call with Lindsey, the copywriter.
+> In it we discuss this update so it will provide you a ton of context.
+>
+> The inventory matrix. It is the most up to date document showing all pages of the site.
+> https://docs.google.com/spreadsheets/d/16SNhrRgH-tizjs79ddF0PHRP3s9zUhgYanbunpWg6Yo/edit?gid=0#gid=0
+>
+> There are also issues with some formatting in the template document such as you having weird duplicate labels (screenshot attached). This is secondary to the work above and should only be done once we've finished.
+
+The document he means is the "Website Redesign: Copywriter Content Population - Alumni" Google Doc (the October 16 test version, alumni pages only), https://docs.google.com/document/d/1qzw3hKj1amodx9aZSsx5PCx_fiHWsZlX72uYqKfHpCU/edit. The screenshot shows the duplicate labels: under the heading "Main site" the heading "Alumni" appears twice in a row (the section heading and the page heading have the same name).
+
 **Previous task.** The copywriter overview deck (final October 6, link in section 4) and the email to Lindsey are done; the Marayo email is moot. The November 4 options deck in `deck/` and the rejected proposal versions are superseded by the counter-draft (D-026, D-027); their history is in git.
 
 ---
