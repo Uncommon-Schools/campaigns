@@ -101,7 +101,7 @@ Links not in the repo: the approved taxonomy sheet https://docs.google.com/sprea
 
 ## 5. Session log
 
-Earlier entries are in git history; the last long version of this file is commit 9095c3e.
+Earlier entries are in git history (last long version: commit 9095c3e).
 
 ### November 8, 2026, night (code agent; ended by Anthony for poor work and high context)
 
