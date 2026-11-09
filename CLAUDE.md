@@ -15,8 +15,8 @@ The message that started your session names your role and the project folder you
 
 1. `<project>/INSTRUCTIONS.md`: the operating instructions. Follow them; do not just read them.
 2. `<project>/HANDOFF.md`: where things stand and the next step.
-3. `<project>/decisions.md`: what has been decided and why.
-4. `<project>/log.md`: every approved piece of work, with what is needed to find it again.
+3. `<project>/decisions.md`: read only the entries `HANDOFF.md` names for the current task, plus the last ten. Do not read it end to end.
+4. `<project>/log.md`: open it only when you need to find a past item. It is a record, not reading.
 
 Then run the start-of-session steps in the instructions. Your first message to Anthony is the "Opening message for the next agent" block at the top of `HANDOFF.md`, sent word for word. Do nothing else until he says go.
 
