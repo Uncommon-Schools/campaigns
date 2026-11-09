@@ -28,4 +28,4 @@ Commit only this subfolder's files, by name. Pull before every commit. Never sta
 
 ### November 9, 2026 (brand voice session)
 
-Oriented; subfolder created on Anthony's yes (BV-001). Source sorting shown and corrected by him (reference deck and ads brief out, 30 Years page in). Page list approved. First draft built and sent as PDF; awaiting his review.
+Oriented; subfolder created on Anthony's yes (BV-001). Source sorting shown and corrected by him (reference deck and ads brief out, 30 Years page in). Page list approved. First draft pushed to GitHub for review on his Proceed. His first round of corrections made and pushed: cover title in Libre Franklin Bold and lower on the page, as in the Division of Labor deck; page 9 cut to two columns (newsletter, department); sources carry full clickable links, the 30 Years page among them, and the Content Inventory Matrix added. Mailchimp editor link tested from the Mac mini: lands on the sign-in page, so nothing is readable without a sign-in on this machine.
