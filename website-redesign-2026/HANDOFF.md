@@ -4,11 +4,11 @@
 
 Send this word for word as your first message, then wait for Anthony's go. Nothing else goes out before it, and no action is taken before his go.
 
-> Hi Anthony. The copywriter content population document is back at its October 16 version, and the v2 copy exists with nothing changed in it yet. You asked this session to review the last one's work first; its record is in the handoff and the decisions file, and I have read it. After the review, the redesign starts with the homepage as the test page, since it has the wireframes, Spinutech's content mapping and the batch 1 dates. Say go and I start with the review.
+> Hi Anthony. Page 1 and the homepage entry are built in the v2 content population document, with the status as a coloured dropdown and the steps as numbered lines, and the record of how it was built is in the handoff and the log. Two things are still open in v2: the old October 16 alumni pages sit below the new content, because the safety check refused to let me delete them, and the title still says Alumni. Say go and I take your notes on the built document, or tell me how you want the old pages removed.
 
-Last updated: 2026-11-08, night, by the code agent on the Mac mini, at the end of a session Anthony ended for poor work and high context. Read `INSTRUCTIONS.md` section 3 in full first, including the November 8 night entry under "How past agents have failed". Then read only the decisions this file names (D-043 to D-046) and the last ten.
+Last updated: 2026-11-09, evening, by the code agent on the Mac mini, during the session that built page 1 and the homepage entry in v2 (state current as of the build, before Anthony has looked at it). Read `INSTRUCTIONS.md` section 3 in full first, including the November 8 night entry under "How past agents have failed". Then read only the decisions this file names (D-043 to D-049) and the last ten.
 
-Where things stand on November 8, one line each: Lindsey Miller is the copywriter and starts November 9; the counter-draft of his Statement of Work is unsigned, every one of Mary Ann's comments on it is answered except the legal pages, which wait on Miriam; the copywriter content population document is the current task, back at its October 16 version after a failed rebuild, with a v2 copy to work in and the homepage as the new test page (section 2); Anthony's SY26-27 goals document is done; the website redesign agent's state (the copywriter deck and candidate emails) was last recorded October 13.
+Where things stand on November 9, one line each: Lindsey Miller is the copywriter and started November 9; the counter-draft of his Statement of Work is unsigned, every one of Mary Ann's comments on it is answered except the legal pages, which wait on Miriam; the copywriter content population document is the current task: the v2 design was approved through two rounds of pictures (D-047 to D-049) and built into the v2 Google Doc on November 9, page 1 and the homepage entry, awaiting Anthony's look (section 2); each region will get its own document (D-047); Anthony's SY26-27 goals document is done; the website redesign agent's state (the copywriter deck and candidate emails) was last recorded October 13.
 
 ---
 
@@ -29,7 +29,7 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 **The documents.**
 
 - The original, "Website Redesign: Copywriter Content Population - Alumni", https://docs.google.com/document/d/1qzw3hKj1amodx9aZSsx5PCx_fiHWsZlX72uYqKfHpCU/edit. October 16 test version, alumni pages only. Anthony restored it from version history on November 8 after the failed rebuild; its text is identical to the pre-edit copy. Do not edit it.
-- The working copy, "Website Redesign: Copywriter Content Population - Alumni v2", https://docs.google.com/document/d/1yTgkbj7dAnRtlGqDoTkcz-vGa9j4v9dtnNhgbfoz0CA/edit. A Drive copy of the restored original, nothing changed in it yet. All work happens here. Its title says Alumni; the test page is now the homepage (D-045), so the title will need to change with Anthony's yes.
+- The working copy, "Website Redesign: Copywriter Content Population - Alumni v2", https://docs.google.com/document/d/1yTgkbj7dAnRtlGqDoTkcz-vGa9j4v9dtnNhgbfoz0CA/edit. All work happens here. On November 9 the new page 1 and the homepage entry were built at the top of it (log row of that date; design pictures and the generator notes in `content-population-v2/`). The October 16 alumni content still sits below a page break: the auto-mode safety check refused the delete, so its removal waits for Anthony (he deletes it, or decides otherwise). The title still says Alumni and needs his yes to change. The Status dropdown definition in v2 has twelve options with their colours; any new entry reuses it (insertDropdown with its definition id, recorded in the log row).
 - The superseded proposal, `content-population-document-proposal.md` in this folder. Written November 8 from the counter-draft; Anthony approved its scope (D-043), the build of it was judged unreadable and undone (D-044). Read it only to understand what was rejected. Its coordinator role and Source material block are out.
 
 **Anthony's brief, November 8, verbatim** (kept so no session retypes it):
@@ -50,7 +50,7 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 >
 > There are also issues with some formatting in the template document such as you having weird duplicate labels (screenshot attached). This is secondary to the work above and should only be done once we've finished.
 
-**What Anthony has decided about the v2 design** (D-044, D-045, all from his criticisms of the failed build):
+**What Anthony has decided about the v2 design** (D-044 and D-045 from the failed build; D-047 to D-049 from his review of the November 9 pictures, which override anything below they contradict: numbered steps in box headers, dropdowns wherever a field has fixed choices, a blank line for who replies to comments, no data reviewer, the steps table cut, the direction box empty under its header, the batch in the facts, an inventory matrix row, one document per region):
 
 - The document is a tool, not the contract in prose. Nobody should have to read page 1 to use it. A person opens their page and the entry walks them down the life of the page in order.
 - Page 1 stays a real page, about 600 words and tables; shrinking it to a few lines was rejected as over-correction. It carries a status board (every page, its status in colour, whose turn it is, the date due), one table of the five steps (step, who, what you do, how long, the status you set), a colour legend, the rules (comment do not edit; paid changes; the pages with a second round), and the batch schedule.
@@ -67,7 +67,7 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 
 **How to work this task** (what the failed session did not do): walk the homepage through one full cycle on paper as the reviewer, the person with final say and Lindsey before designing; check that every input the design relies on exists; show the picture; build only after his yes; make changes in v2 through the Google Docs connection with the revision guard and verify by read-back.
 
-**Pending Anthony's decision:** one document per site for the full set (he does not yet understand the idea well enough to decide; it does not affect the test page). The v2 title.
+**Pending Anthony:** his look at the built v2; removing the old alumni content from v2; the v2 title; the names for the blanks (final say, reviewers, who replies to comments, who approves paid changes). Decided: one document per region (D-047).
 
 ---
 
@@ -110,3 +110,7 @@ Done: Attachment A Direction column (D-041); the executive team out of the count
 ### November 8, 2026, night (code agent; ended by Anthony for poor work and high context)
 
 Anthony said go and the alumni document was rebuilt to the proposal in five batches and verified by read-back (log row). He judged it unreadable: the contract in prose, no path for a reviewer, an unfindable uncoloured status table, no direction box, a pointless Source material block, no flow. The first revision was rejected as over-correction; the agent invented a coordinator role and claimed wireframes that do not exist for the alumni pages. He restored the October 16 version himself; the v2 copy was made (log row); the design terms he set are in section 2 (D-044); the homepage became the test page (D-045); start-of-session reading was cut (D-046) after the session spent a fifth of its context on the audit file. His words are in `INSTRUCTIONS.md` under November 8, night. Nothing in v2 has been changed. The next session reviews this one's work first, then designs the homepage entry and page 1 and shows them as a picture.
+
+### November 9, 2026 (code agent; current session)
+
+The misplaced handoff moved into the folder; the last session's work reviewed (original restored word for word, v2 unchanged, inputs present). Two rounds of design pictures, each walked on paper and by a fresh sub agent, each reviewed by Anthony (D-047 to D-049); his criticisms: label and instruction mixed in one panel, invented data reviewer, steps table inconsistent with the entry, "whose turn" unclear, one-paragraph headers unreadable, a claim that dropdowns could not be made (wrong, tested and corrected). Built page 1 and the homepage entry into v2 through the Docs connection after a full dry run on a scratch document; log row of November 9. Anthony has not yet looked at the built document.
