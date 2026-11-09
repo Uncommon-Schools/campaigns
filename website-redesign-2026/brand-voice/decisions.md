@@ -1,0 +1,3 @@
+ID | Date | Decision | Reasoning | Approved by | Replaces
+
+BV-001 | 2026-11-09 | The brand voice document work keeps its own record files in website-redesign-2026/brand-voice (HANDOFF.md, decisions.md, log.md); the main three files stay with the content population session; each code agent commits only its own files by name and pulls before every commit. | Two code agents work in the same folder of the same clone on the Mac mini at the same time; shared record files would be overwritten and a commit of everything would sweep up the other session's half-finished work. | Anthony ("Yes to the subfolder") | none
