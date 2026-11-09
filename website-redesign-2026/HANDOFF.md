@@ -103,10 +103,6 @@ Links not in the repo: the approved taxonomy sheet https://docs.google.com/sprea
 
 Earlier entries are in git history; the last long version of this file is commit 9095c3e.
 
-### November 6 to 8, 2026 (code agent; ended on Anthony's request for a handoff)
-
-Done: Attachment A Direction column (D-041); the executive team out of the counter-draft, Attachment B renamed Round 2 List (D-042); the legal pages reply (waits on Miriam); Courtney's comments on Anthony's goals document; the content population document proposal (D-043). His criticisms are in `INSTRUCTIONS.md` under November 8.
-
 ### November 8, 2026, night (code agent; ended by Anthony for poor work and high context)
 
 Anthony said go and the alumni document was rebuilt to the proposal in five batches and verified by read-back (log row). He judged it unreadable: the contract in prose, no path for a reviewer, an unfindable uncoloured status table, no direction box, a pointless Source material block, no flow. The first revision was rejected as over-correction; the agent invented a coordinator role and claimed wireframes that do not exist for the alumni pages. He restored the October 16 version himself; the v2 copy was made (log row); the design terms he set are in section 2 (D-044); the homepage became the test page (D-045); start-of-session reading was cut (D-046) after the session spent a fifth of its context on the audit file. His words are in `INSTRUCTIONS.md` under November 8, night. Nothing in v2 has been changed. The next session reviews this one's work first, then designs the homepage entry and page 1 and shows them as a picture.
