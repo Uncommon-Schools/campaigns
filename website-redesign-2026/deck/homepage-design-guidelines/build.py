@@ -209,11 +209,6 @@ def build(prs):
     content_layout = model.slide_layout
     ph = cover.shapes[0]
     ph.text_frame.text = COVER_TITLE
-    # The cover layout's background picture carries the words "CHANGE HISTORY" at the top right.
-    # They belong to the Fall Enrollment deck, so a rectangle in the same blue covers them.
-    patch = cover.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(10.6), Inches(0.85), Inches(2.6), Inches(0.62))
-    patch.fill.solid(); patch.fill.fore_color.rgb = BLUE; patch.line.fill.background()
-    patch.shadow.inherit = False
     for page in PAGES:
         build_page(prs, content_layout, page)
     sldIdLst = prs.slides._sldIdLst
@@ -248,7 +243,6 @@ def write_html(prs, outdir):
     t1, t2 = COVER_TITLE.split('\n')
     cover = f"""<html><head><meta charset="utf-8"><style>{css}</style></head><body>
     <img class="a" src="file://{cover_bg}" style="left:0;top:0;width:13.333in;height:7.5in">
-    <div class="a" style="left:10.6in;top:0.85in;width:2.6in;height:0.62in;background:#1034B3"></div>
     {box(0.33, 1.9, 11.22, 2.35, extra='display:flex;align-items:center;padding-left:0.1in;box-sizing:border-box')}<div style="font-size:53pt;font-weight:700;color:#fff;line-height:1.1">{H.escape(t1)}<br>{H.escape(t2)}</div></div>
     <img class="a" src="file://{cover_badge}" style="left:11.29in;top:6.05in;width:1.74in;height:1.25in">
     <div class="a small" style="left:3.94in;top:7.11in;width:4.97in;text-align:center">© 2026–27 Uncommon Schools, Inc. All rights reserved.</div>
