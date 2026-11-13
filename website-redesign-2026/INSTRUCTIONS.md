@@ -1,6 +1,6 @@
 # Website Redesign: Operating Instructions
 
-Last updated: 2026-11-13, afternoon (rule 42 on sourcing every fact and action item, and the November 12 to 13 entry under "How past agents have failed"). Before that: 2026-11-12, evening (the November 12 entry under "How past agents have failed"). Before that: 2026-11-08, night (start-of-session reading cut to what the task needs, on Anthony's order: the audit file, the whole decisions file and the log are no longer read at the start, sections 4 and 6; the November 8 night entry under "How past agents have failed"). Before that: 2026-11-06, night (the opening message written by the outgoing agent and sent word for word by the next one, sections 5 and 6, D-040; rule 41 on preserving Google Docs comments; rule 36 reply shape cut to answer plus change, D-037; the 3,000-word cap on `HANDOFF.md` in sections 4 and 5, D-035). The rules in section 3 are section 5 of the October 13 handoff, moved here word for word when this folder went onto the three-file system with Anthony's yes on 2026-11-02 (decisions.md, D-024). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
+Last updated: 2026-11-13, evening (the four-question check before every message, section 6, on Anthony's yes). Before that: 2026-11-13, afternoon (rule 42 on sourcing every fact and action item, and the November 12 to 13 entry under "How past agents have failed"). Before that: 2026-11-12, evening (the November 12 entry under "How past agents have failed"). Before that: 2026-11-08, night (start-of-session reading cut to what the task needs, on Anthony's order: the audit file, the whole decisions file and the log are no longer read at the start, sections 4 and 6; the November 8 night entry under "How past agents have failed"). Before that: 2026-11-06, night (the opening message written by the outgoing agent and sent word for word by the next one, sections 5 and 6, D-040; rule 41 on preserving Google Docs comments; rule 36 reply shape cut to answer plus change, D-037; the 3,000-word cap on `HANDOFF.md` in sections 4 and 5, D-035). The rules in section 3 are section 5 of the October 13 handoff, moved here word for word when this folder went onto the three-file system with Anthony's yes on 2026-11-02 (decisions.md, D-024). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
 
 ## 1. What you are stepping into
 
@@ -130,6 +130,13 @@ November 8 (code agent, the same session continued): the Attachment A reply was 
 3. Your first message is the "Opening message for the next agent" block at the top of `HANDOFF.md`, sent word for word, nothing added. If the block is missing or describes a state the files contradict, say so in one line and wait. Then wait for Anthony's go and take no action of any kind before it. (D-040: three agents in a row wrote their own opening and lost Anthony at the first step; the opening is no longer written at the start of a session.)
 
 **During the session:** keep the records as the work happens (section 5). Rule 40: results, questions and asks only; one check-in line when a step has run more than about two minutes.
+
+Before every message, check it against these four questions. If the answer to any is no, fix the message before sending.
+
+1. Is every fact, number, name and quote in it traceable to a source I have open now, not one I remember?
+2. Is everything in it something Anthony asked for, with nothing added, renamed or recommended on my own?
+3. Does it show the thing itself (the text, the file, the reply as it will appear) rather than describe it?
+4. Is it one of the two allowed kinds, a result, question or ask for a yes, or a single check-in line?
 
 **End of every session, and before any handoff:**
 
