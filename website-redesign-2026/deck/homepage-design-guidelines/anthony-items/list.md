@@ -45,3 +45,9 @@
 
 ## 11 Announcement bar (picture: 11-announcement-bar-black.webp, sent 2026-11-12 after Courtney's comment)
 - The announcement bar is black with white text, the highlighted words in yellow, white and yellow circle arrows. Find a School stays the only yellow block at the top of the page.
+
+## 12 Section corners (pictures: 12a cream section with rounded bottom corners, 12b blue flat into cream, 12c blue with rounded top corners, 12d black with rounded bottom corners, 12e blue flat into black; sent 2026-11-13)
+- An additional page that covers where the corners of select sections are rounded in some areas. In other areas it is flat.
+- A nice, well thought out mix is preferred without overusing the curved corners.
+- The curved corners make the site feel less rigid but should not be overused.
+- Left as judgment with the examples, not stated as a rule (Anthony, 2026-11-13).

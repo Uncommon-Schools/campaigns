@@ -75,6 +75,15 @@ PAGES = [
                 ('Secondary colours as accents.', 'Where possible, use secondary colours from the brand guidelines to add a touch of variation, never in a significant way.')],
          pics=[(A('07-black-not-navy.png'), 'Black section background'),
                (A('08-secondary-colours.webp'), 'Secondary colours as accents in the media wall')]),
+    dict(title='Section corners', layout='below', columns=2,
+         items=[('A mix of rounded and flat.', 'Some sections have rounded corners where they meet the section above or below. Others sit flat. The mix is chosen section by section, so the page reads as considered rather than patterned.'),
+                ('Rounded corners soften the site.', 'They keep the page from feeling rigid.'),
+                ('Do not overuse them.', 'A few rounded edges on a page read as deliberate. Rounding every section loses the effect.')],
+         pics=[(A('12a-corners-cream-rounded-bottom.webp'), 'Rounded bottom corners'),
+               (A('12b-corners-blue-flat-into-cream.webp'), 'Flat edge'),
+               (A('12c-corners-blue-rounded-top.webp'), 'Rounded top corners'),
+               (A('12d-corners-black-rounded-bottom.webp'), 'Rounded bottom corners'),
+               (A('12e-corners-blue-flat-into-black.webp'), 'Flat edge')]),
     dict(title='Buttons', layout='below',
          items=[('Calls to action are pills.', 'Always pill-shaped and one height, so they read as one family across the page.'),
                 ('Secondary calls to action are circles.', 'The arrow buttons on cards and carousels.'),
@@ -178,7 +187,7 @@ def add_pic(slide, path, x, y, w, h):
     slide.shapes.add_picture(path, Inches(x), Inches(y), width=Inches(w), height=Inches(h))
     rec(kind='pic', x=x, y=y, w=w, h=h, path=path)
 
-def place_pictures(slide, pics, x, y, w, h_avail, stacked):
+def place_pictures(slide, pics, x, y, w, h_avail, stacked, top=False):
     """stacked=True: one column, pictures under each other. False: one row. Each with a caption."""
     sizes = [as_png(p) for p, _ in pics]
     cap_h = 0.32
@@ -188,7 +197,7 @@ def place_pictures(slide, pics, x, y, w, h_avail, stacked):
         hs = [w * ih / iw for _, iw, ih in sizes]
         scale = min(1.0, (h_avail - n * (cap_h + gap)) / sum(hs))
         pw = w * scale; used = sum(hs) * scale + n * (cap_h + gap) - gap
-        cy = y + max(0, (h_avail - used) / 2)     # centre the column in the space under the title
+        cy = y if top else y + max(0, (h_avail - used) / 2)     # centre the column in the space under the title
         for (p, cap), (path, iw, ih), ph in zip(pics, sizes, hs):
             ph *= scale; px = x + (w - pw) / 2
             add_pic(slide, path, px, cy, pw, ph)
@@ -222,7 +231,12 @@ def build_page(prs, layout, page):
         body_w = RIGHT_EDGE - LEFT
         h = add_body(s, page['items'], LEFT, TOP, body_w)
         py = TOP + h + 0.3
-        place_pictures(s, page['pics'], LEFT, py, body_w, BOTTOM - py, stacked=False)
+        if page.get('columns') == 2:
+            n = math.ceil(len(page['pics']) / 2); col_w = (body_w - 0.5) / 2
+            place_pictures(s, page['pics'][:n], LEFT, py, col_w, BOTTOM - py, stacked=True, top=True)
+            place_pictures(s, page['pics'][n:], LEFT + col_w + 0.5, py, col_w, BOTTOM - py, stacked=True, top=True)
+        else:
+            place_pictures(s, page['pics'], LEFT, py, body_w, BOTTOM - py, stacked=page.get('stack', False))
     return s
 
 COVER_TITLE = 'Website Redesign\nDesign Guidelines'   # Anthony's title in the Slides copy, 2026-11-12 (D-058)
