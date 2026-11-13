@@ -33,6 +33,14 @@ def F(f): return os.path.join(FIG, f)
 # Each page: title, layout ('side' = text left + pictures right, 'below' = text on top + pictures in a row),
 # items = (bold lead, text), pics = (file, caption)
 PAGES = [
+    dict(title='How to use this document', layout='text',
+         intro='These rules apply to every page of the site. Each rule is about one part of a page, such as the header, a button, a card or a carousel. Follow the rule wherever that part appears, on the homepage or deep in the site.',
+         items=[('Site-wide rules hold on every page.', 'Fonts, headline colours, black in place of dark navy, secondary colours as accents, pill and circle buttons, the outlined button family, photography in place of icons, no ellipsis, the header and the footer.'),
+                ('Rules for a part of a page hold wherever that part appears.', 'The homepage shows each one once. Feature cards, regional cards, content cards, carousels, the media wall, video, the results tiles and the news list. A page that uses one of these uses it as shown here.'),
+                ('The wireframes set what goes on a page and in what order.', 'This document sets how those parts look and behave. Where the homepage design changed something from its wireframe, such as the Why Families carousel or the six region cards in a grid, the change is the rule from here on.'),
+                ('Anything new follows the same rules.', 'Where a page needs something the homepage does not have, for example an FAQ list, numbered steps, the school search with its map and filters, charts and tabs, people cards or a row of partner logos, design it to these rules and mark it as new when the page comes to Uncommon for review.'),
+                ('If the homepage design and this document disagree, follow this document.', '')],
+         pics=[]),
     dict(title='Header', layout='below',
          items=[('Taller header.', 'Slightly taller than the wireframe, giving the logo and the navigation more room.'),
                 ('Larger logo.', 'The Uncommon Schools logo is larger for a stronger brand presence at the top of the page.'),
@@ -130,6 +138,17 @@ def add_title(slide, text):
     rec(kind='title', x=0.38, y=0.30, w=12.40, h=0.53, text=text)
     return tb
 
+def add_intro(slide, text, x, y, w):
+    tb = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(1))
+    tf = tb.text_frame; tf.word_wrap = True
+    tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0
+    p = tf.paragraphs[0]; p.line_spacing = 1.15
+    r = p.add_run(); r.text = text; r.font.name = FONT; r.font.size = Pt(BODY_PT); r.font.color.rgb = BLACK
+    n = text_lines(text, w, BODY_PT); h = n * BODY_PT * 1.15 / 72
+    tb.height = Inches(h + 0.05)
+    rec(kind='intro', x=x, y=y, w=w, text=text)
+    return h
+
 def add_body(slide, items, x, y, w):
     tb = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(1))
     tf = tb.text_frame; tf.word_wrap = True
@@ -190,7 +209,11 @@ def build_page(prs, layout, page):
     ELEMS.append([])
     s = prs.slides.add_slide(layout)
     add_title(s, page['title'])
-    if page['layout'] == 'side':
+    if page['layout'] == 'text':
+        body_w = RIGHT_EDGE - LEFT
+        h = add_intro(s, page['intro'], LEFT, TOP, body_w)
+        add_body(s, page['items'], LEFT, TOP + h + 0.25, body_w)
+    elif page['layout'] == 'side':
         body_w = 4.6
         add_body(s, page['items'], LEFT, TOP, body_w)
         px = LEFT + body_w + 0.4; pw = RIGHT_EDGE - px
@@ -202,7 +225,7 @@ def build_page(prs, layout, page):
         place_pictures(s, page['pics'], LEFT, py, body_w, BOTTOM - py, stacked=False)
     return s
 
-COVER_TITLE = 'Website Redesign\nHomepage Design Guidelines'
+COVER_TITLE = 'Website Redesign\nDesign Guidelines'   # Anthony's title in the Slides copy, 2026-11-12 (D-058)
 
 def build(prs):
     cover, model = prs.slides[0], prs.slides[1]
@@ -259,6 +282,8 @@ def write_html(prs, outdir):
         for e in elems:
             if e['kind'] == 'title':
                 parts.append(box(e['x'], e['y'], e['w'], e['h'], cls='a t') + H.escape(e['text']) + '</div>')
+            elif e['kind'] == 'intro':
+                parts.append(box(e['x'], e['y'], e['w'], cls='a b') + '<p>' + H.escape(e['text']) + '</p></div>')
             elif e['kind'] == 'body':
                 ps = ''.join(f'<p><b>{i}.&nbsp; {H.escape(l)}</b>{" " + H.escape(r) if r else ""}</p>' for i, (l, r) in enumerate(e['items'], 1))
                 parts.append(box(e['x'], e['y'], e['w'], cls='a b') + ps + '</div>')
