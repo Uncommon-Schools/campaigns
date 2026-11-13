@@ -78,6 +78,10 @@ Earlier entries are in git history (last long version: commit 9095c3e).
 
 Counter SOW items 6 to 9 made and logged (D-053 to D-056). Mary Ann's feedback on the Content Population document read. The Design Guidelines deck built from Anthony's ten items and the Figma notes and pushed with previews; the Slides copy's comments read; the cover comment answered. The session failed on writing the "how to use this document" page three times and Anthony ended it.
 
-### November 12 to 13, 2026 (code agent; current session, ended by Anthony for loss of trust)
+### November 12 to 13, 2026 (code agent; ended by Anthony for loss of trust)
 
 How to use this document page written from an analysis of the ten wireframe templates, approved and built (D-059, D-060); Anthony posted his own shorter reply to Anneliese. Announcement bar changed to black on Courtney's comment, Anthony's picture (D-061, D-062). Section corners page added with his five pictures (D-063). Deck now 16 pages; cover retitled to his Slides title (D-058). Hero supporting line drafted six times, not approved. Transcript of the November 13 call saved; a breakdown of the call was given, one item in it was not in the call, Anthony caught it, ended the session and ordered that none of this session's work on the Content Population task be used.
+
+### November 13, 2026, evening (code agent; current session)
+
+Four-question check before every message added to the instructions (D-065). Content Population document, Homepage: statuses rebuilt as one column of twelve in order with shortened names and Complete in place of Final, on Anthony's list (D-066); logged. Anthony added bookmarks on Draft 1, 2 and 3 himself. Next on his list: the schedule table out of the page document, then the stakeholder input match, the master map, the 327 page documents, ownership to Lindsey.
