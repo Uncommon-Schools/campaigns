@@ -42,3 +42,6 @@
 - This is the footer of choice.
 - The four buttons are white stroke outlines and never filled or coloured.
 - The column orientation is our choice from the variations provided.
+
+## 11 Announcement bar (picture: 11-announcement-bar-black.webp, sent 2026-11-12 after Courtney's comment)
+- The announcement bar is black with white text, the highlighted words in yellow, white and yellow circle arrows. Find a School stays the only yellow block at the top of the page.
