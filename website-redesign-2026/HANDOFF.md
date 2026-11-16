@@ -53,7 +53,7 @@ Anthony's own items from the call: the email introducing Anneliese to Lindsey, t
 
 **Mary Ann's feedback of November 11** (still relevant): all versions in one place is good; the instructions are repetitive; she wants a separate timeline and guidance tab, the colour legend on every page, and every page on its own tab.
 
-**The Design Guidelines deck, where it stands.** `deck/homepage-design-guidelines/Homepage Design Guidelines.pptx`, 16 pages, built by `build.py` in that folder. Anthony's Google Slides copy, https://docs.google.com/presentation/d/1-bDIDBQlEtRxAz204lhuVq1ceSbsESwAiYYK-fRsyUc/edit, lacks pages 2 (How to use this document, D-060), 5 (Announcement bar, black, D-062) and 10 (Section corners, D-063); only Anthony can import them (File, Import slides). All four Slides comments are closed. Two items remain unasked and unapproved: renaming Headline type to Fonts, and a Results and News page. Standing orders: black, never dark navy (D-057); nothing added unasked.
+**The Design Guidelines deck.** `deck/homepage-design-guidelines/Homepage Design Guidelines.pptx`, 16 pages, built by `build.py`. Anthony's Slides copy, https://docs.google.com/presentation/d/1-bDIDBQlEtRxAz204lhuVq1ceSbsESwAiYYK-fRsyUc/edit, lacks pages 2, 5 and 10 (D-060, D-062, D-063); only Anthony can import them. Unasked and unapproved: renaming Headline type to Fonts, and a Results and News page. Standing orders: black, never dark navy (D-057); nothing added unasked.
 
 **Hero supporting line, open.** Replacement for "Sentence providing high level detail about Uncommon Schools." Last version shown, not approved: "Thirty years of tuition-free schools in New York City, Newark, Rochester, Boston, and Camden, where every student is college-bound from day one." Rejected on the way: a plain list of cities, "rigorous academics", anything over two lines. Anthony's bar: what an agency would write for a project of this price.
 
@@ -64,7 +64,7 @@ Anthony's own items from the call: the email introducing Anneliese to Lindsey, t
 
 ## 3. What Spinutech has told us
 
-Their process (September 11): sitemap and taxonomy; 10 templates; one design direction, more is a change order (D-012); wireframes, one approach; feedback as Figma comments from one person; stock icons recolored; brand colours stay, fonts open (D-013). October 5 workshop: content population stays with Spinutech (D-015); Spinutech provides the inventory, copy doc templates, SEO and AEO guidance and some FAQs; College Grads and Dean's List combine into "Alumni College Success" (D-014); Apply Now or Enroll Now is Hadley's call (D-016); For Educators sits under a Resources menu (D-017); regional URLs copy the NYC structure, pending Mary Ann (D-018). Their timeline is in `references/`; transcripts in `meetings/transcripts/`; open either only when the task needs it.
+Their process (September 11): sitemap and taxonomy; 10 templates; one design direction (D-012); wireframes; feedback as Figma comments from one person; brand colours stay, fonts open (D-013). October 5 workshop: content population stays with Spinutech (D-015); Spinutech provides the inventory, SEO and AEO guidance and some FAQs; College Grads and Dean's List combine (D-014); Apply Now or Enroll Now is Hadley's call (D-016); For Educators sits under Resources (D-017); regional URLs copy the NYC structure, pending Mary Ann (D-018). Their timeline is in `references/`; transcripts in `meetings/transcripts/`; open either only when the task needs it.
 
 ---
 
