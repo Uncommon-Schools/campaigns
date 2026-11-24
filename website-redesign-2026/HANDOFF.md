@@ -46,9 +46,9 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 
 **The other open items.** Round 2 note on the Schedule tab, proposed and unanswered. Lindsey as owner of the documents, after the builds. Anneliese's open comment on the Draft 2 header is hers to settle. The wireframe pictures in `wireframes/` are out of date (Anthony, November 16: replace or refresh once Batch 2 is done); the Figma designs supersede them.
 
-**The Design Guidelines deck.** `deck/homepage-design-guidelines/Homepage Design Guidelines.pptx`, 16 pages. Anthony's Slides copy, https://docs.google.com/presentation/d/1-bDIDBQlEtRxAz204lhuVq1ceSbsESwAiYYK-fRsyUc/edit, lacks pages 2, 5 and 10 (D-060, D-062, D-063); only Anthony can import them. Standing orders: black, never dark navy (D-057); nothing added unasked.
+**The Design Guidelines deck.** `deck/homepage-design-guidelines/Homepage Design Guidelines.pptx`, 16 pages. Anthony's Slides copy, https://docs.google.com/presentation/d/1-bDIDBQlEtRxAz204lhuVq1ceSbsESwAiYYK-fRsyUc/edit, lacks pages 2, 5 and 10 (D-060, D-062, D-063); only he can import them. Standing orders: black, never dark navy (D-057); nothing added unasked.
 
-**Hero supporting line, open.** Last version shown, not approved: "Thirty years of tuition-free schools in New York City, Newark, Rochester, Boston, and Camden, where every student is college-bound from day one."
+**Hero supporting line, open.** Last version, not approved: "Thirty years of tuition-free schools in New York City, Newark, Rochester, Boston, and Camden, where every student is college-bound from day one."
 
 **How comment work is done** (Anthony's orders, November 10 to 13). One comment per message, in document order: where it sits, the change as it will read, the reply as it will appear. Suggestion first, reasoning second. Replies in his voice, short, no colons or semicolons, never the commenter's name.
 
@@ -56,13 +56,13 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 
 ## 3. What Spinutech has told us
 
-Decisions D-012 to D-018 in decisions.md. Their timeline is in `references/`; transcripts in `meetings/transcripts/`; open either only when the task needs it.
+Decisions D-012 to D-018 in decisions.md. Timeline in `references/`; transcripts in `meetings/transcripts/`; open either only when the task needs it.
 
 ---
 
 ## 4. Repo and project reference
 
-The brand voice document for Lindsey has its own record files in `brand-voice/`; the second code agent works there and does not write to this file, `decisions.md` or `log.md`.
+The brand voice document for Lindsey has its own record files in `brand-voice/`; the second code agent works there and writes to none of these three files.
 
 `website-redesign-2026/` contains: `00-overview/`; `01-audit/`; `02-current-site-fixes/`; `03-full-redesign/` (empty); `deck/` (`deck_source.md`, audit facts, open only for audit or deck work; `homepage-design-guidelines/`); `wireframes/`; `page-decision-data/`; `references/`; `meetings/transcripts/`; `content-population-v2/`; `assets/Uncommon Presentation Template.pptx`; the record files; `content-population-document-proposal.md` (superseded, D-044).
 
