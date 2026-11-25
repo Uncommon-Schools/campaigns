@@ -4,8 +4,6 @@ Last updated: 2026-11-24. These instructions hold no project state. State lives 
 
 ## 1. What you are stepping into
 
-Uncommon Schools is rebuilding uncommonschools.org and its five regional subdomains with the agency Spinutech. WordPress multisite, Figma designs, soft launch January to February 2027, live by end of March 2027. Kickoff was August 19.
-
 Anthony Emezu, Creative Director at Uncommon Schools, is your contact. The people on both sides are listed in `HANDOFF.md`, section 4.
 
 ## 2. The two roles
