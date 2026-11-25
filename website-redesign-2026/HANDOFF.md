@@ -36,7 +36,7 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 
 **What was done (D-082 to D-087; log.md, 2026-11-24 rows).** The alternate Homepage template's Draft 1 box holds the ten headings only. Our Results, Careers, Find a School, About, Support Uncommon and the four grade pages were edited in place: nothing typed in the Draft 1 box removed; the Wireframe row reads "Figma design, <Page>." linked to the page's design (the grade pages read "Figma design, Home 2 (Grade), drawn as Elementary.", the agent's wording, offered to Anthony for change, no answer); the What is on this page row deleted; the section lists checked block by block against the design, with any mismatch shown to him before a change (Our Results block 2, three figures to six; About block 6, Student quote to Uncommon Stories). The five Standard Content Pages have no design and were not touched. Courtney Clayton commented in most Batch 1 documents on November 24, some comments anchored on block headings; only About block 6 was touched, and its comment survived. The Figma flow list shows two flows named Our Results; the second is mobile, mislabeled (Anthony). Every page change goes to him in one message, the whole of it. Then Batch 2 (below).
 
-**The benchmark.** "Homepage Content Population: Website Redesign", https://docs.google.com/document/d/1yTgkbj7dAnRtlGqDoTkcz-vGa9j4v9dtnNhgbfoz0CA/edit, Anneliese's rebuild of November 16 and 17, named by Anthony the standard for every template on November 20. The code agent never edits it. Top to bottom: Heading 1 "USI Website Relaunch : <<Homepage>>"; a four-cell table (Draft 1: Comments due, Reviewers- Round 1, Draft 2: Comments due, Final Review & Approver); Directions; Guidelines; three boxes, Draft 1: Original, Draft 2: Revised, Draft 3: Final Review & Approval, each with the numbered block list plus "Link(s) to images/media:" and "FAQs:" rows; Key Input from Stakeholders; Page Information (Where it sits, New address, Today's page, Inventory matrix, Wireframe, Link(s) to images/media, Batch, What is on this page, and on the Homepage only What we know about today's page); a SAMPLE box with the wireframe copy. Three comments are open in its margin (Anneliese's two, Anthony's test).
+**The benchmark.** "Homepage Content Population: Website Redesign", https://docs.google.com/document/d/1yTgkbj7dAnRtlGqDoTkcz-vGa9j4v9dtnNhgbfoz0CA/edit, Anneliese's rebuild of November 16 and 17, named by Anthony the standard for every template on November 20. The code agent never edits it. Top to bottom: Heading 1 "USI Website Relaunch : <<Homepage>>"; a four-cell table (Draft 1: Comments due, Reviewers- Round 1, Draft 2: Comments due, Final Review & Approver); Directions; Guidelines; three boxes, Draft 1: Original, Draft 2: Revised, Draft 3: Final Review & Approval, each with the numbered block list plus "Link(s) to images/media:" and "FAQs:" rows; Key Input from Stakeholders; Page Information (Where it sits, New address, Today's page, Inventory matrix, Wireframe, Link(s) to images/media, Batch, What is on this page, and on the Homepage only What we know about today's page); a SAMPLE box with the wireframe copy. Three comments are open in its margin.
 
 **How a page document is built from it (Anthony's rules, November 20).** Rebuilt in place, same link; a page with no document gets a Drive copy of the Homepage and its name in column C of the map's Pages tab becomes the link. Name "<Page> Content Population: Website Redesign"; heading "USI Website Relaunch : <Page>"; the four-cell table from the map's Pages row in the map's date format (11-24-26); Directions and Guidelines word for word; block lists from the page's design, or the italic no-wireframe line (D-078); Key Input from Stakeholders from Anneliese's "Website Relaunch: Content Development", https://docs.google.com/document/d/1IumxHkki5R7AYPQHIW2ZEWOgIWRgF-EUl-3WZmTm7hA/edit (main-page or regional tab), as bullets, or "Nothing recorded yet."; Page Information with live links; no SAMPLE. Shared with Mary Ann Villanueva, Anneliese Tint, Courtney Clayton and Lindsey Miller as editors, everyone at uncommonschools.org as viewer (D-076, D-077). Method and scripts (`/tmp/cp` and `/tmp/fig` on the Mac mini) are in log.md, 2026-11-20 and 2026-11-24 rows.
 
@@ -46,7 +46,7 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 
 **The master map.** "Website Redesign: Copywriting Master Map", https://docs.google.com/spreadsheets/d/18fjYqpuM7aTuV_lmAX_QWcYSkGr5Ruq5avV0XFkUB8Q/edit (D-068), reworked by Anneliese by November 20. Pages tab, sixteen columns: Site, Batch, Page (the name is the link to the page document), Reviewer- Round 1, Reviewer: Status, Final Review & Approval: Executive Manager, Final Approver: Status, Draft 1 ready, Comments due: Draft 1, Draft 2 ready, Round 2, Comments due: Draft 2, Final Review & Approval due, Final version due, New address, <PROJECT MANAGER ONLY> Status. Reviewers and approvers are filled for Batch 1 only. The Schedule tab still shows Attachment A's dates and disagrees with the Pages tab. New tab RAPID: decision rights by page group. Every page has a batch (D-079).
 
-**The auto-update is dead.** The Scheduled task "Copywriting Master Map auto-update" reads a column and a Status board that no longer exist, so it skips every row. Reported November 20, no decision yet.
+**The auto-update is dead.** The Scheduled task "Copywriting Master Map auto-update" reads a column and a Status board that no longer exist. Reported November 20, no decision yet.
 
 **The other open items.** Round 2 note on the Schedule tab, proposed and unanswered. Lindsey as owner of the documents, after the builds. Anneliese's open comment on the Draft 2 header is hers to settle. The wireframe pictures in `wireframes/` are out of date (Anthony, November 16: replace or refresh once Batch 2 is done); the Figma designs supersede them.
 
@@ -66,7 +66,7 @@ Decisions D-012 to D-018 in decisions.md. Timeline in `references/`; transcripts
 
 ## 4. Repo and project reference
 
-The brand voice document for Lindsey has its own record files in `brand-voice/`; the second code agent works there and writes to none of these three files.
+The brand voice document for Lindsey has its own record files in `brand-voice/`; that agent writes to none of these three files.
 
 `website-redesign-2026/` contains: `00-overview/`; `01-audit/`; `02-current-site-fixes/`; `03-full-redesign/` (empty); `deck/` (`deck_source.md`, audit facts, open only for audit or deck work; `homepage-design-guidelines/`); `wireframes/`; `page-decision-data/`; `references/`; `meetings/transcripts/`; `content-population-v2/`; `assets/Uncommon Presentation Template.pptx`; the record files; `content-population-document-proposal.md` (superseded, D-044).
 
@@ -88,7 +88,7 @@ Links not in the repo: the approved taxonomy sheet https://docs.google.com/sprea
 
 ## 5. Session log
 
-Earlier entries are in git history (last long version: commit 9095c3e).
+Earlier entries are in git history (commit 9095c3e).
 
 ### November 24, 2026, afternoon (code agent on the Mac mini; ended by Anthony)
 
