@@ -1,6 +1,6 @@
 # Website Redesign: Operating Instructions
 
-Last updated: 2026-11-24. These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
+Last updated: 2026-11-24, late night (section 6, context reported unasked, D-093). These instructions hold no project state. State lives in `HANDOFF.md`; decisions and their reasoning live in `decisions.md`. If Anthony tells you to work differently in a session, do it his way, then propose the matching edit to this file and make it with his yes, so the next agent inherits the change.
 
 ## 1. What you are stepping into
 
@@ -100,7 +100,7 @@ Before every message, check it against these four questions. If the answer to an
 2. Make sure every decision from the session is in `decisions.md` and every approved item is in `log.md`.
 3. Code agent: commit and push. Website redesign agent: hand the files to Anthony with the one-line commit message to use.
 
-**Context and compaction.** Work done after the conversation has been condensed is not trusted.
+**Context and compaction.** Say so to Anthony the moment context is getting high, without being asked, and offer the handoff. Work done after the conversation has been condensed is not trusted.
 
 ## 7. First move when you take over
 
