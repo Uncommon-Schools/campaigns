@@ -8,7 +8,7 @@ Send this word for word as your first message, then wait for Anthony's go. Nothi
 
 Last updated: 2026-11-24, evening, by the code agent on the Mac mini, at the end of the third session of the day, after Batch 1 was re-pointed to the Figma designs (D-085 to D-087) and Anthony ordered the record files trimmed (D-088). Read `INSTRUCTIONS.md` section 3 in full first, then the decisions this file names (D-076 to D-088) and the last ten.
 
-Where things stand on November 24: Lindsey Miller is the copywriter, working from November 13; the counter SOW is unsigned, every comment answered; the Design Guidelines deck is 16 pages in the repo, three still to be imported into Slides by Anthony; the Homepage document (Anneliese's rebuild) is the benchmark; the fifteen Batch 1 page documents match it, but their Wireframe rows and block lists come from Spinutech's wireframes; the Figma re-link of Batch 1 (section 2) is done, the alternate Homepage template finished and not yet shared; the trim of the record files (section 2) comes next, then Batch 2 (55 pages); the map's hourly auto-update is dead; the hero supporting line is not approved.
+Where things stand on November 24: Lindsey Miller is the copywriter, working from November 13; the counter SOW is unsigned, every comment answered; the Design Guidelines deck is 16 pages in the repo, three still to be imported into Slides by Anthony; the Homepage document (Anneliese's rebuild) is the benchmark; the fifteen Batch 1 page documents match it, but their Wireframe rows and block lists come from Spinutech's wireframes; the Figma re-link of Batch 1 (section 2) is done, the alternate Homepage template finished and not yet shared; the trim of the record files (section 2) comes next, then Batch 2 (55 pages); the map's hourly auto-update is dead.
 
 ---
 
@@ -45,8 +45,6 @@ Uncommon Schools is rebuilding uncommonschools.org and its five regional sites w
 **The other open items.** The alternate Homepage template, "Homepage Content Population B: Website Redesign", https://docs.google.com/document/d/1Mlm8p1cUsX4RMcqgxAoros28IG4Za0JCmjG0gm8g2sg/edit, is shared with no one yet. Round 2 note on the Schedule tab, proposed and unanswered. Lindsey as owner of the documents, after the builds. Anneliese's open comment on the Draft 2 header is hers to settle. The wireframe pictures in `wireframes/` are out of date (Anthony, November 16: replace or refresh once Batch 2 is done); the Figma designs supersede them.
 
 **The Design Guidelines deck.** `deck/homepage-design-guidelines/Homepage Design Guidelines.pptx`, 16 pages. Anthony's Slides copy, https://docs.google.com/presentation/d/1-bDIDBQlEtRxAz204lhuVq1ceSbsESwAiYYK-fRsyUc/edit, lacks pages 2, 5 and 10 (D-060, D-062, D-063); only he can import them. Standing orders: black, never dark navy (D-057); nothing added unasked.
-
-**Hero supporting line, open.** Last version, not approved: "Thirty years of tuition-free schools in New York City, Newark, Rochester, Boston, and Camden, where every student is college-bound from day one."
 
 **How comment work is done** (Anthony's orders, November 10 to 13). One comment per message, in document order: where it sits, the change as it will read, the reply as it will appear. Suggestion first, reasoning second. Replies in his voice, short, no colons or semicolons, never the commenter's name.
 
