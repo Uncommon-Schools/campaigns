@@ -61,14 +61,13 @@ Hard rules. Violating them costs trust immediately.
 - `INSTRUCTIONS.md`: this file. Rules only; no state.
 - `HANDOFF.md`: the working state, overwritten in place. Sections in section 5 below. Git holds the history, so the file only ever describes now. Capped at 3,000 words (section 5).
 - `decisions.md`: every decision with its date, reasoning and approver. Newest at the bottom.
-- `log.md`: every approved piece of work, one row each, with the ID or link needed to find it and the settings needed to make it again (added 2026-11-04, D-025). Open it to find a past item; it is not start-of-session reading.
-- `deck/deck_source.md`: every August audit fact, sections 0 to 12. Open it only for audit or deck work. Reading it at the start of every session cost a fifth of a session's context for nothing (2026-11-08, Anthony's order).
-- The folder map, the key facts you must not get wrong, and the people are in `HANDOFF.md`, section 4. How the website redesign agent reaches repo files, the live site and the taxonomy sheet is in `HANDOFF.md`, section 2.
-- Code agent: the clone on the Mac mini at `~/GitHub/Uncommon-Schools/campaigns`. Fetch and pull `main` before reading. Check which computer the session is linked to before asking Anthony to sign in anywhere; the September 3 to 9 session stalled on exactly that.
+- `log.md`: every approved piece of work, one row each, with the ID or link needed to find it and the settings needed to make it again. Open it to find a past item; it is not start-of-session reading.
+- The folder map, the key facts you must not get wrong, and the people are in `HANDOFF.md`, section 4.
+- Code agent: the clone on the Mac mini at `~/GitHub/Uncommon-Schools/campaigns`. Check which computer the session is linked to before asking Anthony to sign in anywhere.
 
 ## 5. Records
 
-**The record-keeping rule.** Records are written as the work happens, not at the end. Every decision Anthony makes goes into `decisions.md`, with its reasoning, the moment it is made. Every delivered file, commit or change is logged in the session log of `HANDOFF.md` in the same session. `HANDOFF.md` is rewritten in place at the end of every session. The code agent commits and pushes `HANDOFF.md`, `decisions.md`, `log.md` and anything saved in `meetings/` the moment they are saved, without asking and without comment; everything else waits for Anthony's yes. The website redesign agent saves them and hands them to Anthony to commit (section 2). The repo, not the session, is the record; a session can die without warning.
+**The record-keeping rule.** Records are written as the work happens, not at the end. Every decision Anthony makes goes into `decisions.md`, with its reasoning, the moment it is made. `HANDOFF.md` is rewritten in place at the end of every session. The code agent commits and pushes `HANDOFF.md`, `decisions.md`, `log.md` and anything saved in `meetings/` the moment they are saved, without asking and without comment; everything else waits for Anthony's yes. The website redesign agent saves them and hands them to Anthony to commit (section 2). The repo, not the session, is the record; a session can die without warning.
 
 **`log.md` format.** `Date | Item | Status | External ID | Settings | Notes`, one row per approved item, newest at the bottom, written the moment Anthony approves. Rejected attempts are not saved; their IDs and the reason go in the Notes column or the handoff.
 
@@ -76,15 +75,15 @@ Hard rules. Violating them costs trust immediately.
 
 **`HANDOFF.md` sections, in this order.** "Opening message for the next agent": the next session's first message to Anthony, written by the outgoing agent at session end, word for word, in Anthony's names for things (the document headings and people's names as he uses them, never the agent's labels such as "item 8"), at most six lines, ending with what he is asked to say go to. Then a "Last updated" line (date, which agent, and what the state is current as of); a one-line-each summary of where things stand; 1. Where things stand; 2. Current task; 3. What Spinutech has told us; 4. Repo and project reference, including the key facts you must not get wrong and the people; 5. Session log, dated entries, newest at the bottom. Short, current, and enough for a fresh agent to start working within minutes of reading it.
 
-**The length cap.** `HANDOFF.md` is never longer than 3,000 words (D-035, 2026-11-06; it had reached 14,600 by growing every session instead of being replaced). Count the words at every session end, when the file is rewritten anyway; anything over the cap is cut, not kept. What leaves the file goes where it belongs: a decision to `decisions.md`, a delivered item to `log.md`, everything else to git history. The file holds no narrative of how past work went wrong; a lesson that matters becomes a rule in section 3. The session log keeps the last two sessions. If the current task needs more than about 900 words, move its detail into `decisions.md` or `log.md`; do not raise the cap.
+**The length cap.** `HANDOFF.md` is never longer than 3,000 words (D-035, 2026-11-06). Count the words at every session end, when the file is rewritten anyway; anything over the cap is cut, not kept. What leaves the file goes where it belongs: a decision to `decisions.md`, a delivered item to `log.md`, everything else to git history. The file holds no narrative of how past work went wrong; a lesson that matters becomes a rule in section 3. The session log keeps the last two sessions. If the current task needs more than about 900 words, move its detail into `decisions.md` or `log.md`; do not raise the cap.
 
 ## 6. Session protocol
 
 **Start of every session:**
 
 1. Code agent: confirm you are in the campaigns repo on the Mac mini and fetch and pull `main`. Website redesign agent: open the three files by exact path through raw.githubusercontent.com.
-2. Read this file in full, section 3 first, then `HANDOFF.md` in full, then only the `decisions.md` entries that `HANDOFF.md` section 2 names plus the last ten. Nothing else is start-of-session reading: not the log, not the audit file, not transcripts, not the proposal files, unless the current task in `HANDOFF.md` sends you there. Every file read costs context, and context is what a session runs out of (2026-11-08). Read each file with its own command. If the output is cut short, open the saved copy and read it to the last line. Compare the number of lines read with the number of lines in the file, and move on only when they match. A cut-off preview is not a read.
-3. Your first message is the "Opening message for the next agent" block at the top of `HANDOFF.md`, sent word for word, nothing added. If the block is missing or describes a state the files contradict, say so in one line and wait. Then wait for Anthony's go and take no action of any kind before it. (D-040: three agents in a row wrote their own opening and lost Anthony at the first step; the opening is no longer written at the start of a session.)
+2. Read this file in full, section 3 first, then `HANDOFF.md` in full, then only the `decisions.md` entries that `HANDOFF.md` section 2 names plus the last ten. Nothing else is start-of-session reading: not the log, not the audit file, not transcripts, not the proposal files, unless the current task in `HANDOFF.md` sends you there. Every file read costs context, and context is what a session runs out of. Read each file with its own command. If the output is cut short, open the saved copy and read it to the last line. Compare the number of lines read with the number of lines in the file, and move on only when they match. A cut-off preview is not a read.
+3. Your first message is the "Opening message for the next agent" block at the top of `HANDOFF.md`, sent word for word, nothing added. If the block is missing or describes a state the files contradict, say so in one line and wait. Then wait for Anthony's go and take no action of any kind before it. (D-040)
 
 **During the session:** keep the records as the work happens (section 5). Rule 40: results, questions and asks only; one check-in line when a step has run more than about two minutes.
 
@@ -101,7 +100,7 @@ Before every message, check it against these four questions. If the answer to an
 2. Make sure every decision from the session is in `decisions.md` and every approved item is in `log.md`.
 3. Code agent: commit and push. Website redesign agent: hand the files to Anthony with the one-line commit message to use.
 
-**Context and compaction.** When Anthony asks whether context is high, answer honestly and offer the handoff (rule 18). When he says context is high or asks for a handoff, rewrite `HANDOFF.md` first, in that message, before anything else (rule 39). Work done after the conversation has been condensed is not trusted.
+**Context and compaction.** Work done after the conversation has been condensed is not trusted.
 
 ## 7. First move when you take over
 
