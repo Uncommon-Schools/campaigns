@@ -55,17 +55,6 @@ Hard rules. Violating them costs trust immediately.
 
 42. Anything presented as a fact, a decision or an agreed action carries the words it comes from. A breakdown of a call shows, under each item, the transcript's words that say it. An item with no words under it is not sent. (November 13: a call breakdown listed re-dating the schedule as an agreed action; the call never said it, and Anthony ended the session. Added on his "proceed".)
 
-### His writing style, captured verbatim
-
-He wrote this himself after rejecting several attempts. Match the pattern: link first, three bullets, concrete mechanics, no framing, no rationale, no sign-off.
-
-> Hi @all,
-> The Keep, Kill, or Consolidate review sheet can be found [here](link).
->
-> * There's a tab for the main site, NYC, Boston, Newark, Camden, Rochester, and Curriculum Hub. Every page is listed with its link, page type, and any notes from the August audit.
-> * To mark a decision, use the dropdown in column G on each tab. If you pick Consolidate, note where it folds into in the Notes column.
-> * The Start here tab has instructions and a Progress table that counts decisions as they're made.
-
 ## 4. Where context lives
 
 - `CLAUDE.md` at the root of the campaigns repo: sends every agent here.
